@@ -1,6 +1,10 @@
+library(CMScaller)
 library(ggalluvial)
 library(ggplot2)
-#########  PCA analyis of both LN and Tissue  ##########################
+
+##########################################################################################
+#########  PCA analyis of both LN and Tissue to check the data  ##########################
+##########################################################################################
 GeneTPM_Final_Symbol=read.table("D:/06_CRC/bulkRNAseq/BeiJingSample/AllSample_Gene_TPM_Final_Symbol.txt",header=T,row.names=1,sep="\t")
 AllSampleInfo=read.table("D:/06_CRC/bulkRNAseq/BeiJingSample/SampleInformation_Final.txt",sep="\t",header=T,row.names=1)
 IDMapping=read.table("D:/06_CRC/bulkRNAseq/BeiJingSample/SampleAndMedicalID.txt",header=T,sep="\t")
@@ -21,8 +25,9 @@ all(rownames(IDMapping)==colnames(TissueGeneExpr))
 colnames(TissueGeneExpr)=IDMapping$MedicalRecordID
 write.table(TissueGeneExpr,file="D:/06_CRC/bulkRNAseq/BeiJingSample/MSS/PrimaryTissueGeneExpr.txt",quote=F,sep="\t")
 
-
-library(CMScaller)
+##########################################################################################
+#########  CMS subytpes identficiation of primary tissus using CMScaller  ################
+##########################################################################################
 Beijing_Tissue_TPM=read.table("/boot3/bixm/CRCTmp/PrimaryTissueGeneExpr.txt",header=T,row.names=1,sep="\t",check.names=F)
 res=CMScaller(
        Beijing_Tissue_TPM,
@@ -40,6 +45,9 @@ res=CMScaller(
 #9/64 samples set to NA
 write.table(res,file="/boot3/bixm/CRCTmp/CMSPredication4PrimaryTissue.txt",sep="\t",quote=F)
 
+##################################################################################################################
+#########  compairtion between LN assocaited subtypes and their primary tissue related CMS subtypes  #############
+##################################################################################################################
 BeiJingInfo=read.table("/boot3/bixm/CRCTmp/LymphNodeInfomation-Beijing_173.txt",header=T,sep="\t")
 BeiJingInfo$CombineGroup=ifelse(BeiJingInfo$GroupByGene%in%c("NLN_C1","NLN_C2"),"NLN_C1/C2",ifelse(BeiJingInfo$GroupByGene%in%c("NLN_C3","NLN_C4"),"NLN_C3/C4","PLN"))
 TargetInfo=c("MedicalRecordID","CombineGroup","GroupByGene","LNSize","LNLocation","TumorLocation","Age","Sex","BMI","DifferentiationGrade","PathologicalType","TumorSize","TNM.stage","MSS.MSI","BRAF","Vascular.Thrombosis","PNI","EMVI","Tumor.Budding","OS","RFS")
@@ -88,7 +96,6 @@ fisher.test(CMSResult.mt) #p-value = 0.1494
 
 GroupByGene_Colors=c("#63B99C","#BB968C","#D986B5","#CAD246")
 names(GroupByGene_Colors)=sort(unique(BeiJingInfo_SubType$GroupByGene))
-
 BeiJingInfo_SubType=BeiJingInfo_SubType[BeiJingInfo_SubType$prediction%in%c("CMS1","CMS2","CMS3","CMS4"),]
 CMSResult=data.frame(table(BeiJingInfo_SubType$CombineGroup,BeiJingInfo_SubType$prediction))
 colnames(CMSResult)=c("SubTypes","CMSResult","Number")
@@ -106,11 +113,11 @@ dev.off()
 CMSResult.mt=as.data.frame.matrix(table(BeiJingInfo_SubType$CombineGroup,BeiJingInfo_SubType$prediction))
 fisher.test(CMSResult.mt) #p-value = 0.1494
 
-
-
-
-
-
+##########################################################################################
+#########  iCMS subytpes identficiation of primary tissus using CMScaller  ###############
+##########################################################################################
+#iCMSMarkerForCMSCaller: iCMS2 makers were defiend as upregualted markers in iCMS2 and downregaulted markers in iCMS3
+#iCMSMarkerForCMSCaller: iCMS3 makers were defiend as upregualted markers in iCMS3 and downregaulted markers in iCMS2
 #intrinsic CMS (iCMS) subtypes?
 library(CMScaller)
 Beijing_Tissue_TPM=read.table("/boot3/bixm/CRCTmp/PrimaryTissueGeneExpr.txt",header=T,row.names=1,sep="\t",check.names=F)
@@ -132,7 +139,9 @@ res=CMScaller(
 #   28    27     9
 write.table(res,file="/boot3/bixm/CRCTmp/iCMSPredication4PrimaryTissue.txt",sep="\t",quote=F)
 
-
+##################################################################################################################
+#########  compairtion between LN assocaited subtypes and their primary tissue related iCMS subtypes  ############
+##################################################################################################################
 BeiJingInfo=read.table("/boot3/bixm/CRCTmp/LymphNodeInfomation-Beijing_173.txt",header=T,sep="\t")
 BeiJingInfo$CombineGroup=ifelse(BeiJingInfo$GroupByGene%in%c("NLN_C1","NLN_C2"),"NLN_C1/C2",ifelse(BeiJingInfo$GroupByGene%in%c("NLN_C3","NLN_C4"),"NLN_C3/C4","PLN"))
 TargetInfo=c("MedicalRecordID","CombineGroup","GroupByGene","LNSize","LNLocation","TumorLocation","Age","Sex","BMI","DifferentiationGrade","PathologicalType","TumorSize","TNM.stage","MSS.MSI","BRAF","Vascular.Thrombosis","PNI","EMVI","Tumor.Budding","OS","RFS")
@@ -197,19 +206,9 @@ fisher.test(CMSResult.mt) #p-value = 0.1494
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+##############################################################################################################################
+#########  we also performed CMS and iCMS sutypes identification at lymph nodes level (not shown in the article)  ############
+##############################################################################################################################
 #Does the distribution of non-metastatic lymph nodes correlate with Consensus Molecular Subtypes (CMS) or intrinsic CMS (iCMS) subtypes?
 #Consensus Molecular Subtypes (CMS)
 library(CMScaller)
