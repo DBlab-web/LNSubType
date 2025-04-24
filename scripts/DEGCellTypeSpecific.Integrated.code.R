@@ -1,10 +1,11 @@
+#this script was used to estimate the cell type specific gene expression of DEGs between various compairsion, correspondent to Figure 3A
 library(presto) #download zip file from github, unzip, install.packages(path,rep=NULL,type="resource")
 library(dplyr)
 library(msigdbr)
 library(tibble)
 library(fgsea)
 
-
+##### LN.Combined.Final.rds was generated from ##############
 setwd("/groups/g900008/home/bixiaoman/Projects/LNCRC/scRNAseq/")
 LNCombined.Final=readRDS("LN.Combined.Final.rds")
 table(LNCombined.Final$cellType)
