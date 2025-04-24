@@ -1,11 +1,5 @@
+###script used to dealt with the scRNA-seq data #####
 
-
-salloc -N 1 -n 32 -p 128c512g-BIO --comment=lkn_lab
-ssh cpu5
-source /opt/app/anaconda3/bin/activate
-conda activate Seurat-4.4.0
-
-R
 library(Seurat) #4.4.0
 library(harmony) #1.2.1
 library(plyr)
