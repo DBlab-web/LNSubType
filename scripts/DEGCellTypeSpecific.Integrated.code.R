@@ -5,7 +5,9 @@ library(msigdbr)
 library(tibble)
 library(fgsea)
 
-##### LN.Combined.Final.rds was generated from ##############
+####################################################################################
+##### LN.Combined.Final.rds was generated from LN.scRNAseq.code.R ##############
+####################################################################################
 setwd("/groups/g900008/home/bixiaoman/Projects/LNCRC/scRNAseq/")
 LNCombined.Final=readRDS("LN.Combined.Final.rds")
 table(LNCombined.Final$cellType)
@@ -59,9 +61,6 @@ pdf("/groups/g900008/home/bixiaoman/Projects/LNCRC/bulkRNAseq/BeiJingSample/GSEA
 plotEnrichment(fgsea_sets[["Up_PLNvsNLN"]],ranks)
 dev.off()
 
-
-
-
 cluster="Endothelial cell"
 clusterCell<- MajorType.marker %>% dplyr::filter(group == cluster) %>% arrange(desc(logFC)) %>% dplyr::select(feature, logFC)
 ranks<- deframe(clusterCell)
@@ -76,9 +75,7 @@ dev.off()
 
 
 
-
 MajorTypeList=c("CD4 T cell","CD8 T cell","NK cell","Exhausted T cell","B cell","Germinal center B cell","Plasma cell","MKI67 cell","Mast cell","Neutrophial","Macrophage","Epithelial cell","Fibroblast cell","Endothelial cell")
-
 setwd("/groups/g900008/home/bixiaoman/Projects/LNCRC/bulkRNAseq/BeiJingSample/GSEA/DEGSpecificExpr")
 for(type in MajorTypeList){
 	if(type=="CD4 T cell"){
@@ -88,7 +85,6 @@ for(type in MajorTypeList){
 		AllResult=rbind(AllResult,tmp)
 	}
 }
-
 AllResult=AllResult[,c("pathway","pval","padj","NES","size","cellType")]
 AllResult$cellType=factor(AllResult$cellType,levels=rev(MajorTypeList))
 t=na.omit(AllResult$padj)
