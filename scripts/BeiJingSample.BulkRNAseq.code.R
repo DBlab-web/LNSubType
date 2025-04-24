@@ -1,9 +1,14 @@
+#script deal with the BJ cohort
 library(pheatmap)
 library(ggplot2)
 library(RColorBrewer)
 library(DESeq2)
 library(DGEobj.utils)
 library(RColorBrewer)
+
+############################################################################
+################### read datasets (two batches) ############################
+############################################################################
 setwd("D:/06_CRC/bulkRNAseq/BeiJingSample/")
 GeneCount_Batch1=read.table("D:/06_CRC/bulkRNAseq/BeiJingSample/rawData/BeiJing_FirstBatch.CountMatrix.txt",sep="\t",header=T,row.names=1)
 GeneCount_Batch2=read.table("D:/06_CRC/bulkRNAseq/BeiJingSample/rawData/BeiJing_SecondBatch.CountMatrix.txt",sep="\t",header=T,row.names=1)
@@ -23,6 +28,9 @@ GeneCount=cbind(GeneCount_Batch1,GeneCount_Batch2)
 dim(GeneCount)
 #[1] 61644   270
 
+############################################################################
+################### read datasets assocaited information ################## 
+############################################################################
 SampleInformation_raw=read.table("D:/06_CRC/bulkRNAseq/BeiJingSample/rawData/SampleInfo_Raw.txt",sep="\t",header=T,row.names=1)
 dim(SampleInformation_raw)
 #[1] 288   9
@@ -34,6 +42,9 @@ SampleList=intersect(rownames(SampleInformation_raw),colnames(GeneCount))
 length(SampleList)
 #266
 
+############################################################################
+################### obtain the normalizaed gene expression################## 
+############################################################################
 GeneCount=GeneCount[,SampleList]
 dim(GeneCount)
 #61644   266
@@ -46,6 +57,9 @@ GeneTPM=convertCounts(
   prior.count = NULL
 )
 
+############################################################################
+################### sample and gene filter ################## 
+############################################################################
 ### Step 2: Remove samples with distince gene expression
 logTPM=log2(GeneTPM+1)
 #sampleDist=dist(t(logTPM))
@@ -100,7 +114,9 @@ dim(LN_Count_Final)
 write.table(LN_TPM_Final,file="D:/06_CRC/bulkRNAseq/BeiJingSample/LN_TPM_Final_Ensemble.txt",sep="\t",quote=F)
 write.table(LN_Count_Final,file="D:/06_CRC/bulkRNAseq/BeiJingSample/LN_Count_Final_Ensemble.txt",sep="\t",quote=F)
 
-
+############################################################################
+################### tissue sample and gene filter ################## 
+############################################################################
 TissueInfo=SampleInformation_1stFilter[SampleInformation_1stFilter$LNGroup%in%c("Tissue"),]
 dim(TissueInfo)
 #85  9
@@ -127,8 +143,9 @@ write.table(GeneCount_Final,file="D:/06_CRC/bulkRNAseq/BeiJingSample/AllSample_G
 SampleInformation=SampleInformation_raw[KeepSample,]
 write.table(SampleInformation,file="D:/06_CRC/bulkRNAseq/BeiJingSample/SampleInformation_Final.txt",sep="\t",quote=F)
 
-
+########################################################################################################
 ######## remove duplicated gene terms with multiple gene_name ##########################
+########################################################################################################
 GeneTPM_Final_Ensemble=read.table("D:/06_CRC/bulkRNAseq/BeiJingSample/AllSample_Gene_TPM_Final_Ensemble.txt",header=T,row.names=1,sep="\t")
 GeneInfo=GeneInfo[!duplicated(GeneInfo$gene_name),]
 GeneList=intersect(rownames(GeneTPM_Final_Ensemble),rownames(GeneInfo))
@@ -143,8 +160,9 @@ write.table(GeneTPM_Final_Symbol,file="D:/06_CRC/bulkRNAseq/BeiJingSample/AllSam
 write.table(GeneTPM_Final_Symbol[,KeepLNSample],file="D:/06_CRC/bulkRNAseq/BeiJingSample/LN_TPM_Final_Symbol.txt",sep="\t",quote=F)
 
 
-
-#########  PCA analyis of both LN and Tissue  ##########################
+########################################################################################################
+#########  PCA analyis of all samples (inlucidng lymph nodes and Tissue)  ##########################
+########################################################################################################
 GeneTPM_Final_Symbol=read.table("D:/06_CRC/bulkRNAseq/BeiJingSample/AllSample_Gene_TPM_Final_Symbol.txt",header=T,row.names=1,sep="\t")
 SampleInformation=read.table("D:/06_CRC/bulkRNAseq/BeiJingSample/SampleInformation_Final.txt",sep="\t",header=T,row.names=1)
 logTPM=log2(GeneTPM_Final_Symbol+1)
@@ -176,15 +194,15 @@ pdf("D:/06_CRC/bulkRNAseq/BeiJingSample/AllSampe_PCA_Point.pdf",width=7,height=4
 print(g)
 dev.off()
 
-
-
 eigs <- logTPM.pca$sdev^2
 eigs[1] / sum(eigs) #0.3681
 eigs[2] / sum(eigs) #0.1471
 
 summary(logTPM.pca)
 
+########################################################################################################
 #########  DEGs between PLN and NLN  ##########################
+########################################################################################################
 LN_Count=read.table("D:/06_CRC/bulkRNAseq/BeiJingSample/LN_Count_Final_Ensemble.txt",sep="\t",header=T,row.names=1)
 
 GeneInfo=read.csv("D:/06_CRC/bulkRNAseq/BeiJingSample/GeneInformation.txt",sep="\t",header=T,row.names=1)
@@ -218,7 +236,6 @@ PosvsNeg_dds_SigGene=PosvsNeg_dds[PosvsNeg_dds$padj<0.01&abs(PosvsNeg_dds$log2Fo
 table(PosvsNeg_dds_SigGene$Pattern)
 write.table(PosvsNeg_dds,file="D:/06_CRC/bulkRNAseq/BeiJingSample/DEG/AllGene_PosvsNeg.txt",sep="\t",quote=F)
 
-
 PosvsNeg_dds=read.table("D:/06_CRC/bulkRNAseq/BeiJingSample/DEG/AllGene_PosvsNeg.txt",header=T,row.name=1,sep="\t")
 library(ggrepel)
 hs_data=data.frame(PosvsNeg_dds)
@@ -251,7 +268,6 @@ dev.off()
 write.table(hs_data[hs_data$threshold%in%c("SigUp","SigDown"),],file="D:/06_CRC/bulkRNAseq/BeiJingSample/DEG/AllGene_PosvsNeg_SigGene.txt",quote=F,sep="\t")
 write.table(rownames(hs_data[hs_data$threshold=="SigUp",]),file="D:/06_CRC/bulkRNAseq/BeiJingSample/DEG/AllGene_PosvsNeg_SigUp.txt",row.names=F,col.names=F,quote=F)
 write.table(rownames(hs_data[hs_data$threshold=="SigDown",]),file="D:/06_CRC/bulkRNAseq/BeiJingSample/DEG/AllGene_PosvsNeg_SigDown.txt",row.names=F,col.names=F,quote=F)
-
 
 
 LN_TPM=read.table("D:/06_CRC/bulkRNAseq/BeiJingSample/LN_TPM_Final_Symbol.txt",header=T,row.names=1)
@@ -308,12 +324,11 @@ pheatmap(as.matrix(LNSampleDist),clustering_method="ward.D2",
   show_rownames=F,show_colnames=F,color = colorRampPalette(brewer.pal(n = 7, name ="PiYG"))(100))
 dev.off()
 
-
 pheatmap(as.matrix(LNSampleDist),clustering_method="ward.D2",
   annotation_colors = ann_colors,annotation_col=LN_Info[,c("GroupByGene","LNGroup","Batch")],
   show_rownames=F,show_colnames=F,color = colorRampPalette(c("red","firebrick3","lightblue","white","white","white"))(50))
 
-
+############################# vilidation using various methods #####################################################
 SampleDistByEuclidean=dist(t(LN_TPM_log),method = "euclidean")
 pdf("D:/06_CRC/bulkRNAseq/BeiJingSample/SubTypeIdentification/SubType_Heatmap_euclidean_ward.D2.pdf",width=7,height=5)
 pheatmap(as.matrix(SampleDistByEuclidean),clustering_method="ward.D2",
@@ -342,13 +357,12 @@ pheatmap(as.matrix(LNSampleDist),clustering_method="average",
   show_rownames=F,show_colnames=F,color = colorRampPalette(brewer.pal(n = 7, name ="PiYG"))(100))
 dev.off()
 
-
-
 LN_Info=LN_Info[order(LN_Info$GroupByGene),]
 write.table(LN_Info,file="D:/06_CRC/bulkRNAseq/BeiJingSample/SubTypeIdentification/LN_SubType_Info.txt",sep="\t",quote=F)
 
-
-#########  PCA  ##########################
+########################################################################################################
+###################################  PCA analyis of  lymph nodes  ##########################
+########################################################################################################
 LN_TPM=read.table("D:/06_CRC/bulkRNAseq/BeiJingSample/LN_TPM_Final_Symbol.txt",header=T,row.names=1,sep="\t")
 LN_Info=read.table("D:/06_CRC/bulkRNAseq/BeiJingSample/SubTypeIdentification/LN_SubType_Info.txt",header=T,row.names=1,sep="\t")
 LN_TPM=LN_TPM[,rownames(LN_Info)]
@@ -371,18 +385,14 @@ pdf("D:/06_CRC/bulkRNAseq/BeiJingSample/SubTypeIdentification/LN_SubType_PCA_Poi
 print(g)
 dev.off()
 
-
 eigs <- logTPM.pca$sdev^2
 eigs[1] / sum(eigs) #0.3449098
 eigs[2] / sum(eigs) #0.1182276
-
 summary(logTPM.pca)
-
 
 ##############################################################################
 ########################  DEGs between Subtypes of NLN  ######################
 ##############################################################################
-
 LN_Count=read.table("D:/06_CRC/bulkRNAseq/BeiJingSample/LN_Count_Final_Symbol.txt",header=T,row.names=1)
 LN_Info=read.table("D:/06_CRC/bulkRNAseq/BeiJingSample/SubTypeIdentification/LN_SubType_Info.txt",sep="\t",header=T,row.names=1)
 LN_Count=LN_Count[,rownames(LN_Info)]
@@ -407,8 +417,9 @@ for(LNSubGroup in GroupByGeneList[-1]){
    write.table(LNSubGroupvsC1_dds,file=paste0("D:/06_CRC/bulkRNAseq/BeiJingSample/DEG/AllGene_",LNSubGroup,"vsNLN_C1.txt",sep=""),sep="\t",quote=F)
 }
 
-########### Visualization of DEGs from NLN subtypes  ###########
-
+##############################################################################
+########################  Visualization of DEGs from NLN subtypes  ######################
+##############################################################################
 DEGAll=read.table("D:/06_CRC/bulkRNAseq/BeiJingSample/DEG/AllGene_PosvsNeg.txt",header=T,row.names=1)
 DEGAll$Gene=rownames(DEGAll)
 DEGAll$Group="PLNvsNLN"
@@ -492,9 +503,8 @@ degPlotCluster(DownPatternTable,time="GroupByGene",color="GroupByGene",boxes = F
 dev.off()
 
 
-
 ##############################################################################
-###################################  Visualization  ##########################
+#####################  Visualization of target genes ##########################
 ##############################################################################
 setwd("D:/06_CRC/bulkRNAseq/BeiJingSample/")
 LN_TPM_BeiJing=read.table("D:/06_CRC/bulkRNAseq/BeiJingSample/LN_TPM_Final_Symbol.txt",header=T,row.names=1,sep="\t")
@@ -582,8 +592,6 @@ pdf("D:/06_CRC/Graph/Part4/TF.boxplot.BeiJing.pdf",width=8,height=4)
 print(g)
 dev.off()
 
-
-
 targetGenes=c("CDKN1A","CDKN2A","CDKN2B")
 GraphData=cbind(LN_Info_BeiJing[,c("LNGroup","GroupByGene")],t(LN_TPM_BeiJing[targetGenes,]))
 GraphData.df=reshape2::melt(GraphData,id=c(1:2))
@@ -599,8 +607,6 @@ g=ggplot(GraphData.df,aes(x=GroupByGene, y=log2(GeneExpr+1), fill=GroupByGene)) 
 pdf("D:/06_CRC/Graph/Part4/Senescence.boxplot.BeiJing.pdf",width=3.5,height=5)
 print(g)
 dev.off()
-
-
 
 Marker=read.table("D:/06_CRC/LNscRNAseq/CellTypeIdentification/LN.CellType.Marker.txt",header=T,sep="\t")
 SenescenceMarkers=read.table("D:/06_CRC/bulkRNAseq/Senescence/55markersBySegura.txt",sep="\t",header=T)
