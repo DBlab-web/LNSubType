@@ -1,7 +1,9 @@
+#this script was used to estimate the overlap between DEGs between metastatic status (metastatic vs non-metastatic group) and DEGs between various subtypes (NLNC4 vs NLNC1) 
+library(ggplot2)
+library(ggrepel)
 
 GeneInfo=read.csv("D:/06_CRC/bulkRNAseq/BeiJingSample/GeneInformation.txt",sep="\t",header=T,row.names=1)
 protein_coding_genes=GeneInfo[GeneInfo$gene_biotype=="protein_coding","gene_name"]
-
 
 PosvsNeg_DEG=read.table("D:/06_CRC/bulkRNAseq/BeiJingSample/DEG/AllGene_PosvsNeg.txt",header=T,row.name=1,sep="\t")
 NLNC4vsC1_DEG=read.table("D:/06_CRC/bulkRNAseq/BeiJingSample/DEG/AllGene_NLN_C4vsNLN_C1.txt",header=T,row.name=1,sep="\t")
@@ -11,7 +13,6 @@ NLNC4vsC1_DEG$threshold=ifelse(NLNC4vsC1_DEG$padj>0.01|abs(NLNC4vsC1_DEG$log2Fol
 
 PosvsNeg_DEG=PosvsNeg_DEG[intersect(rownames(PosvsNeg_DEG),protein_coding_genes),]
 NLNC4vsC1_DEG=NLNC4vsC1_DEG[intersect(rownames(NLNC4vsC1_DEG),protein_coding_genes),]
-
 
 sigPos=PosvsNeg_DEG[!PosvsNeg_DEG$threshold%in%"NoSig",]
 sigC4=NLNC4vsC1_DEG[!NLNC4vsC1_DEG$threshold%in%"NoSig",]
@@ -39,18 +40,14 @@ rownames(DEGList)=c("UpInNLNC4","UpInPos","UpInBoth","DownInNLNC4","DownInPos","
 write.table(DEGList[c(1,2,3),],file="D:/06_CRC/bulkRNAseq/BeiJingSample/DEG/metascape/NLNC4AndPos.Up.combined.txt",col.names=F,quote=F,sep="\t")
 write.table(DEGList[c(4,5,6),],file="D:/06_CRC/bulkRNAseq/BeiJingSample/DEG/metascape/NLNC4AndPos.Down.combined.txt",col.names=F,quote=F,sep="\t")
 
-
-
+#output the varisou overlap between different compairsions
 write.table(SharedUp,file="D:/06_CRC/bulkRNAseq/BeiJingSample/DEG/metascape/NLNC4AndPos.SahredUp.txt",row.names=F,col.names=F,quote=F,sep="\t")
 write.table(SharedDown,file="D:/06_CRC/bulkRNAseq/BeiJingSample/DEG/metascape/NLNC4AndPos.SahredDown.txt",row.names=F,col.names=F,quote=F,sep="\t")
-
 write.table(UpInNLNC4Spe,file="D:/06_CRC/bulkRNAseq/BeiJingSample/DEG/metascape/NLNC4AndPos.UpInNLNC4SpeTop3000.txt",row.names=F,col.names=F,quote=F,sep="\t")
 write.table(DownInNLNC4Spe,file="D:/06_CRC/bulkRNAseq/BeiJingSample/DEG/metascape/NLNC4AndPos.DownInNLNC4Sep.txt",row.names=F,col.names=F,quote=F,sep="\t")
-
 write.table(UpInPosSep,file="D:/06_CRC/bulkRNAseq/BeiJingSample/DEG/metascape/NLNC4AndPos.UpInPos4Spe.txt",row.names=F,col.names=F,quote=F,sep="\t")
 
-
-
+#visualization
 data=read.table("D:/06_CRC/bulkRNAseq/BeiJingSample/DEG/metascape/NLNC4AndPos.UpInPos4Spe/NLNC4AndPos.UpInPos4Spe.Go.txt",header=T,sep="\t")
 data=data[data$GroupID%in%grep("Summary",data$GroupID,value=TRUE),]
 colorPalette=colorRampPalette(brewer.pal(8, "Set3"))(length(unique(pbmc.merge$orig.ident)))
@@ -63,25 +60,11 @@ g=ggplot(data[c(1:5),], aes(Description, logP, fill=logP)) +
   scale_fill_viridis()+
   theme(axis.text.x = element_text(angle = 0))+
   theme(axis.title.y = element_blank())
-
 pdf("D:/06_CRC/bulkRNAseq/BeiJingSample/DEG/metascape/NLNC4AndPos.UpInPos4Spe.Go.pdf",width=6.5,height=2)
 print(g)
 dev.off()
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-library(ggrepel)
+#visualization
 hs_data=data.frame(NLNC4vsC1_DEG)
 hs_data$threshold = as.factor(ifelse(hs_data$padj>0.01,"NoSig",ifelse(abs(hs_data$log2FoldChange)>log2(2),ifelse(hs_data$log2FoldChange>log2(2),"SigUp","SigDown"),ifelse(hs_data$log2FoldChange>0,"Up","Down"))))
 table(hs_data$threshold)
