@@ -1,8 +1,13 @@
+#script deal with the HB cohort
 library(pheatmap)
 library(ggplot2)
 library(DESeq2)
 library(DGEobj.utils)
 library(RColorBrewer)
+
+##############################################################################
+#########################  quantify control  ################################
+##############################################################################
 setwd("D:/06_CRC/bulkRNAseq/HarBinSample/")
 GeneCount=read.table("D:/06_CRC/bulkRNAseq/HarBinSample/rawData/gene_count_matrix.csv",sep=",",header=T,row.names=1)
 dim(GeneCount)
@@ -23,7 +28,6 @@ GeneInfo=GeneInfo[!duplicated(GeneInfo$gene_name),]
 GeneList=intersect(GeneCount$Ensemble,rownames(GeneInfo))
 length(GeneList)
 #58889
-
 rownames(GeneCount)=GeneCount$Ensemble
 GeneCount=GeneCount[GeneList,]
 #58996   265
@@ -34,10 +38,8 @@ rownames(GeneCount)=GeneCount$Symbol
 GeneCount$Symbol=NULL
 GeneCount$Ensemble=NULL
 #58889   264
-
 all(rownames(GeneCount)==rownames(GeneInfo$gene_name))
 ##TRUE
-
 GeneTPM=convertCounts(
   as.matrix(GeneCount),
   unit="TPM",
@@ -46,8 +48,6 @@ GeneTPM=convertCounts(
   normalize = "none",
   prior.count = NULL
 )
-
-
 ### output gene expression matrix
 SampleInfo=read.table("D:/06_CRC/bulkRNAseq/HarBinSample/rawData/HarBin_162LN_GroupInfo.txt",sep="\t",header=T,row.names=1)
 dim(SampleInfo)
@@ -68,7 +68,7 @@ plot(sampleTree,hang=-1)
 # did not find any outlier samples
 
 ##############################################################################
-#########  SubType validation of Lymphnode  ##########################
+#########  SubType validation of Lymph nodes  ################################
 ##############################################################################
 LN_TPM=read.table("D:/06_CRC/bulkRNAseq/HarBinSample/LNSample_Gene_TPM_Syumbol.txt",header=T,row.names=1,sep="\t")
 SampleInformation=read.table("D:/06_CRC/bulkRNAseq/HarBinSample/rawData/HarBin_162LN_GroupInfo.txt",sep="\t",header=T,row.names=1)
