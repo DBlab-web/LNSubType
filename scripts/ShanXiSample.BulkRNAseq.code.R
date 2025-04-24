@@ -1,9 +1,13 @@
-
-library(ggplot2)
-library(RColorBrewer)
+#script deal with the HB cohort
 library(pheatmap)
+library(ggplot2)
 library(DESeq2)
 library(DGEobj.utils)
+library(RColorBrewer)
+
+##############################################################################
+#########################  quantify control  ################################
+##############################################################################
 
 GeneCount_Batch1=read.csv("D:/06_CRC/bulkRNAseq/ShanXiSample/rawData/FirstBatch_113Sample/gene_count_matrix.csv",sep=",",header=T,row.names=1)
 GeneCount_Batch2=read.csv("D:/06_CRC/bulkRNAseq/ShanXiSample/rawData/SecondBatch_234Sample/gene_count_matrix.csv",sep=",",header=T,row.names=1)
@@ -49,7 +53,6 @@ GeneCount$Ensemble=NULL
 
 all(rownames(GeneCount)==rownames(GeneInfo$gene_name))
 ##TRUE
-
 GeneTPM=convertCounts(
   as.matrix(GeneCount),
   unit="TPM",
@@ -58,10 +61,7 @@ GeneTPM=convertCounts(
   normalize = "none",
   prior.count = NULL
 )
-
-
-
-
+  
 SampleInfo=read.table("D:/06_CRC/bulkRNAseq/ShanXiSample/LymphNodeInfomationFromShanXiBatch.txt",sep="\t",header=T,row.names=1)
 dim(SampleInfo)
 # 227   8
@@ -86,7 +86,7 @@ write.table(LNCount,file="D:/06_CRC/bulkRNAseq/ShanXiSample/LNSample_Gene_Count_
 
 
 ##############################################################################
-#########  SubType validation of Lymphnode  ##########################
+#########  SubType validation of Lymphnode  ################################
 ##############################################################################
 LN_TPM=read.table("D:/06_CRC/bulkRNAseq/ShanXiSample/LNSample_Gene_TPM_Syumbol.txt",header=T,row.names=1,sep="\t")
 LN_Info=read.table("D:/06_CRC/bulkRNAseq/ShanXiSample/LymphNodeInfomationFromShanXiBatch.txt",sep="\t",header=T,row.names=1)
