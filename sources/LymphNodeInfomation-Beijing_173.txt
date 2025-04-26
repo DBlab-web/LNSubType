@@ -1,0 +1,174 @@
+MedicalRecordID	Sample ID	GroupByGene	LNMStatus	SampleName	TumorLocation	Age	Sex	BMI	DifferentiationGrade	PathologicalType	HistologicalType	TumorSize	TotalLN	PosLN	LNSize	LNLocation	T	N	M	TNM stage	Vascular Thrombosis	PNI	EMVI	Tumor Budding	BRAF	MSS/MSI	OS	Ostime	RFS	RFStime
+690137	E1RL1z0	NLN_C3	NLN	LN1	Right colon	74	Male	<25	Moderate	Adenocarcinoma	Ulcerative type	5-10	43	0	Small	D1	T3-T4	N0	M0	Stage I-II	Negative	Negative	NA	Positive	Negative	pMMR	0	29	0	29
+690137	E1RL2z0	NLN_C1	NLN	LN2	Right colon	74	Male	<25	Moderate	Adenocarcinoma	Ulcerative type	5-10	43	0	Small	D2	T3-T4	N0	M0	Stage I-II	Negative	Negative	NA	Positive	Negative	pMMR	0	29	0	29
+1151908	G2LN2	NLN_C2	NLN	LN2	Left colon	58	Female	<25	Moderate	Adenocarcinoma	Polypoid type	<5	11	0	Small	D1	T1-T2	N0	M0	Stage I-II	Negative	Negative	NA	Positive	Negative	pMMR	0	29	0	29
+1151908	G2LN3	NLN_C4	NLN	LN3	Left colon	58	Female	<25	Moderate	Adenocarcinoma	Polypoid type	<5	11	0	Small	D1	T1-T2	N0	M0	Stage I-II	Negative	Negative	NA	Positive	Negative	pMMR	0	29	0	29
+1151908	G2LN5	NLN_C2	NLN	LN5	Left colon	58	Female	<25	Moderate	Adenocarcinoma	Polypoid type	<5	11	0	Small	D3	T1-T2	N0	M0	Stage I-II	Negative	Negative	NA	Positive	Negative	pMMR	0	29	0	29
+1283497	LN1J1	PLN_C1	PLN	LN1	Rectum	75	Male	≥25	Moderate	Adenocarcinoma	Polypoid type	<5	12	2	Small	D1	T1-T2	N1-N2	M0	Stage III-IV	Negative	Negative	NA	Positive	Negative	pMMR	1	16	1	16
+1283497	LN2J1	NLN_C1	NLN	LN2	Rectum	75	Male	≥25	Moderate	Adenocarcinoma	Polypoid type	<5	12	2	Large	D1	T1-T2	N1-N2	M0	Stage III-IV	Negative	Negative	NA	Positive	Negative	pMMR	1	16	1	16
+1283497	LN3J1	NLN_C1	NLN	LN3	Rectum	75	Male	≥25	Moderate	Adenocarcinoma	Polypoid type	<5	12	2	Small	D1	T1-T2	N1-N2	M0	Stage III-IV	Negative	Negative	NA	Positive	Negative	pMMR	1	16	1	16
+1743470	LN3E3	NLN_C4	NLN	LN3	Rectum	50	Female	<25	Moderate	Adenocarcinoma	Ulcerative type	<5	16	0	Small	NA	T3-T4	N0	M0	Stage I-II	Positive	Positive	Positive	Positive	Negative	pMMR	0	23	0	23
+1748068	A2RL1z0	NLN_C4	PLN	LN1	Right colon	70	Male	<25	Poor	Adenocarcinoma	Ulcerative type	5-10	52	11	Small	NA	T3-T4	N1-N2	M0	Stage III-IV	Positive	Negative	NA	NA	Negative	pMMR	1	20	1	20
+1748068	A2RL2z1	PLN_C2	PLN	LN2	Right colon	70	Male	<25	Poor	Adenocarcinoma	Ulcerative type	5-10	52	11	Small	NA	T3-T4	N1-N2	M0	Stage III-IV	Positive	Negative	NA	NA	Negative	pMMR	1	20	1	20
+1751784	B3zL1x0	NLN_C1	NLN	LN1	Rectum	50	Male	<25	Poor	Adenocarcinoma	Ulcerative type	5-10	14	0	Small	NA	T3-T4	N0	M0	Stage I-II	Negative	Negative	NA	Positive	Negative	pMMR	0	30	0	30
+1751784	B3zL2x0	NLN_C1	NLN	LN2	Rectum	50	Male	<25	Poor	Adenocarcinoma	Ulcerative type	5-10	14	0	Small	NA	T3-T4	N0	M0	Stage I-II	Negative	Negative	NA	Positive	Negative	pMMR	0	30	0	30
+1753306	B41RL2x0	NLN_C1	NLN	LN2	Right colon	59	Male	≥25	Poor	Adenocarcinoma	Ulcerative type	<5	49	1	Small	NA	T3-T4	N1-N2	M0	Stage III-IV	Positive	Negative	Positive	Positive	Negative	pMMR	0	30	0	30
+1755602	A3RL1x0	NLN_C1	NLN	LN1	Right colon	63	Male	<25	Well	Adenocarcinoma	Polypoid type	<5	32	0	Small	NA	T1-T2	N0	M0	Stage I-II	Negative	Negative	NA	Positive	Negative	pMMR	0	30	0	30
+1755602	A3RL2x0	NLN_C1	NLN	LN2	Right colon	63	Male	<25	Well	Adenocarcinoma	Polypoid type	<5	32	0	Small	NA	T1-T2	N0	M0	Stage I-II	Negative	Negative	NA	Positive	Negative	pMMR	0	30	0	30
+1755616	Z1ZL1x0	NLN_C1	NLN	LN1	Rectum	66	Female	<25	Poor	Adenocarcinoma	Ulcerative type	5-10	30	3	Small	NA	T3-T4	N1-N2	M0	Stage III-IV	Positive	Negative	NA	NA	Negative	pMMR	0	30	0	30
+1755616	Z1ZL2x0	NLN_C1	NLN	LN2	Rectum	66	Female	<25	Poor	Adenocarcinoma	Ulcerative type	5-10	30	3	Small	NA	T3-T4	N1-N2	M0	Stage III-IV	Positive	Negative	NA	NA	Negative	pMMR	0	30	0	30
+1755616	Z1ZL3x1	NLN_C3	PLN	LN3	Rectum	66	Female	<25	Poor	Adenocarcinoma	Ulcerative type	5-10	30	3	Large	NA	T3-T4	N1-N2	M0	Stage III-IV	Positive	Negative	NA	NA	Negative	pMMR	0	30	0	30
+1756447	LN2G8	NLN_C4	PLN	LN2	Left colon	70	Male	NA	Moderate	Adenocarcinoma	Ulcerative type	<5	23	5	Small	NA	T3-T4	N1-N2	M0	Stage III-IV	Positive	Positive	Positive	Positive	Negative	pMMR	1	35	1	28
+1756447	LN4G8	NLN_C4	PLN	LN4	Left colon	70	Male	NA	Moderate	Adenocarcinoma	Ulcerative type	<5	23	5	Small	NA	T3-T4	N1-N2	M0	Stage III-IV	Positive	Positive	Positive	Positive	Negative	pMMR	1	35	1	28
+1756622	B5LN1	NLN_C2	NLN	LN1	Rectum	68	Male	<25	Poor	Adenocarcinoma	Ulcerative type	<5	15	0	Small	NA	T3-T4	N0	M0	Stage I-II	NA	Positive	Positive	NA	Negative	pMMR	0	30	0	30
+1756622	B5LN3	NLN_C1	NLN	LN3	Rectum	68	Male	<25	Poor	Adenocarcinoma	Ulcerative type	<5	15	0	Small	NA	T3-T4	N0	M0	Stage I-II	NA	Positive	Positive	NA	Negative	pMMR	0	30	0	30
+1758668	LN1B6	NLN_C1	NLN	LN1	Rectum	56	Male	≥25	Moderate	Adenocarcinoma	Polypoid type	5-10	20	0	Small	NA	T1-T2	N0	M0	Stage I-II	Negative	Negative	NA	NA	Negative	pMMR	0	30	0	30
+1758707	L1BI	PLN_C2	PLN	LN1	Rectum	49	Male	<25	Poor	Adenocarcinoma	Ulcerative type	5-10	18	14	Large	D1	T3-T4	N1-N2	M0	Stage III-IV	Positive	Positive	Positive	NA	Negative	pMMR	1	25	1	25
+1758707	L2BI	PLN_C2	PLN	LN2	Rectum	49	Male	<25	Poor	Adenocarcinoma	Ulcerative type	5-10	18	14	Small	D1	T3-T4	N1-N2	M0	Stage III-IV	Positive	Positive	Positive	NA	Negative	pMMR	1	25	1	25
+1758707	L3B1	PLN_C2	PLN	LN3	Rectum	49	Male	<25	Poor	Adenocarcinoma	Ulcerative type	5-10	18	14	Small	D1	T3-T4	N1-N2	M0	Stage III-IV	Positive	Positive	Positive	NA	Negative	pMMR	1	25	1	25
+1758707	L4B1	NLN_C4	PLN	LN4	Rectum	49	Male	<25	Poor	Adenocarcinoma	Ulcerative type	5-10	18	14	Small	D2	T3-T4	N1-N2	M0	Stage III-IV	Positive	Positive	Positive	NA	Negative	pMMR	1	25	1	25
+1758821	LN2D3	NLN_C4	NLN	LN2	Rectum	43	Female	<25	Moderate	Adenocarcinoma	Polypoid type	5-10	18	1	Small	NA	T3-T4	N1-N2	M0	Stage III-IV	Positive	Positive	Positive	Positive	Negative	pMMR	0	29	0	29
+1758821	LN3D3	NLN_C3	NLN	LN3	Rectum	43	Female	<25	Moderate	Adenocarcinoma	Polypoid type	5-10	18	1	Small	NA	T3-T4	N1-N2	M0	Stage III-IV	Positive	Positive	Positive	Positive	Negative	pMMR	0	29	0	29
+1758821	LN4D3	NLN_C3	NLN	LN4	Rectum	43	Female	<25	Moderate	Adenocarcinoma	Polypoid type	5-10	18	1	Small	NA	T3-T4	N1-N2	M0	Stage III-IV	Positive	Positive	Positive	Positive	Negative	pMMR	0	29	0	29
+1758907	B4RL1z0	NLN_C3	NLN	LN1	Right colon	53	Male	≥25	Poor	Adenocarcinoma	Ulcerative type	5-10	42	4	Small	NA	T3-T4	N1-N2	M0	Stage III-IV	Negative	Positive	NA	Negative	Negative	pMMR	0	30	0	30
+1758907	B4RL2x1	PLN_C1	PLN	LN2	Right colon	53	Male	≥25	Poor	Adenocarcinoma	Ulcerative type	5-10	42	4	Small	NA	T3-T4	N1-N2	M0	Stage III-IV	Negative	Positive	NA	Negative	Negative	pMMR	0	30	0	30
+1759194	A8zL1z0	PLN_C2	PLN	LN1	Left colon	50	Male	≥25	Poor	Adenocarcinoma	Ulcerative type	<5	24	3	Small	NA	T3-T4	N1-N2	M0	Stage III-IV	Negative	Positive	Positive	Positive	Negative	pMMR	0	30	0	30
+1759194	A8zL2x1	NLN_C3	NLN	LN2	Left colon	50	Male	≥25	Poor	Adenocarcinoma	Ulcerative type	<5	24	3	Small	NA	T3-T4	N1-N2	M0	Stage III-IV	Negative	Positive	Positive	Positive	Negative	pMMR	0	30	0	30
+1759824	B9ZL1x0	PLN_C1	NLN	LN1	Rectum	58	Male	<25	Poor	Adenocarcinoma	Polypoid type	<5	12	0	Small	D1	T1-T2	N0	M0	Stage I-II	Negative	Negative	NA	Positive	Negative	pMMR	0	30	0	30
+1759824	B9ZL2x0	NLN_C3	NLN	LN2	Rectum	58	Male	<25	Poor	Adenocarcinoma	Polypoid type	<5	12	0	Small	D1	T1-T2	N0	M0	Stage I-II	Negative	Negative	NA	Positive	Negative	pMMR	0	30	0	30
+1760541	C9ZL1x0	NLN_C2	NLN	LN1	Rectum	46	Male	<25	Poor	Adenocarcinoma	Polypoid type	<5	14	0	Small	NA	T1-T2	N0	M0	Stage I-II	Negative	Negative	NA	Positive	Negative	pMMR	0	29	0	29
+1760541	C9ZL2x0	NLN_C2	NLN	LN2	Rectum	46	Male	<25	Poor	Adenocarcinoma	Polypoid type	<5	14	0	Small	NA	T1-T2	N0	M0	Stage I-II	Negative	Negative	NA	Positive	Negative	pMMR	0	29	0	29
+1760902	L2D6	NLN_C2	NLN	LN2	Rectum	46	Male	<25	Moderate	Adenocarcinoma	Polypoid type	<5	16	0	Small	NA	T1-T2	N0	M0	Stage I-II	Negative	Positive	Negative	Positive	Negative	pMMR	0	36	0	36
+1760902	L5D6	NLN_C1	NLN	LN5	Rectum	46	Male	<25	Moderate	Adenocarcinoma	Polypoid type	<5	16	0	Small	D3	T1-T2	N0	M0	Stage I-II	Negative	Positive	Negative	Positive	Negative	pMMR	0	36	0	36
+1760902	LN3D6	NLN_C1	NLN	LN3	Rectum	46	Male	<25	Moderate	Adenocarcinoma	Polypoid type	<5	16	0	Small	D3	T1-T2	N0	M0	Stage I-II	Negative	Positive	Negative	Positive	Negative	pMMR	0	36	0	36
+1761004	E4L1	NLN_C1	NLN	LN1	Rectum	50	Male	<25	NA	Mucinous adenocarcinoma	Polypoid type	<5	40	0	Large	D3	T3-T4	N0	M0	Stage I-II	Negative	Negative	NA	NA	Negative	pMMR	0	29	0	29
+1761004	E4L2	NLN_C2	NLN	LN2	Rectum	50	Male	<25	NA	Mucinous adenocarcinoma	Polypoid type	<5	40	0	Small	D3	T3-T4	N0	M0	Stage I-II	Negative	Negative	NA	NA	Negative	pMMR	0	29	0	29
+1761004	E4L3	NLN_C4	NLN	LN3	Rectum	50	Male	<25	NA	Mucinous adenocarcinoma	Polypoid type	<5	40	0	Small	D3	T3-T4	N0	M0	Stage I-II	Negative	Negative	NA	NA	Negative	pMMR	0	29	0	29
+1761004	E4L4	NLN_C1	NLN	LN4	Rectum	50	Male	<25	NA	Mucinous adenocarcinoma	Polypoid type	<5	40	0	Small	D3	T3-T4	N0	M0	Stage I-II	Negative	Negative	NA	NA	Negative	pMMR	0	29	0	29
+1761004	E4L5	NLN_C1	NLN	LN5	Rectum	50	Male	<25	NA	Mucinous adenocarcinoma	Polypoid type	<5	40	0	Small	D3	T3-T4	N0	M0	Stage I-II	Negative	Negative	NA	NA	Negative	pMMR	0	29	0	29
+1762251	LN1C2	NLN_C2	PLN	LN1	Rectum	46	Female	<25	Poor	Mucinous adenocarcinoma	Polypoid type	5-10	58	9	Small	D1	T3-T4	N1-N2	M0	Stage III-IV	Positive	Positive	Positive	NA	NA	pMMR	0	29	0	29
+1762251	LN2C2	NLN_C3	NLN	LN2	Rectum	46	Female	<25	Poor	Mucinous adenocarcinoma	Polypoid type	5-10	58	9	Small	D1	T3-T4	N1-N2	M0	Stage III-IV	Positive	Positive	Positive	NA	NA	pMMR	0	29	0	29
+1762251	LN7C2	NLN_C4	PLN	LN7	Rectum	46	Female	<25	Poor	Mucinous adenocarcinoma	Polypoid type	5-10	58	9	Large	D2	T3-T4	N1-N2	M0	Stage III-IV	Positive	Positive	Positive	NA	NA	pMMR	0	29	0	29
+1762251	LN8C2	NLN_C4	NLN	LN8	Rectum	46	Female	<25	Poor	Mucinous adenocarcinoma	Polypoid type	5-10	58	9	Large	D3	T3-T4	N1-N2	M0	Stage III-IV	Positive	Positive	Positive	NA	NA	pMMR	0	29	0	29
+1762392	D4LN1	NLN_C1	NLN	LN1	Rectum	52	Male	NA	Poor	Adenocarcinoma	Polypoid type	<5	34	1	Small	NA	T3-T4	N1-N2	M0	Stage III-IV	NA	Negative	Positive	NA	Negative	pMMR	0	32	0	32
+1762392	D4LN2	NLN_C3	NLN	LN2	Rectum	52	Male	NA	Poor	Adenocarcinoma	Polypoid type	<5	34	1	Small	NA	T3-T4	N1-N2	M0	Stage III-IV	NA	Negative	Positive	NA	Negative	pMMR	0	32	0	32
+1762392	D4LN3	NLN_C2	NLN	LN3	Rectum	52	Male	NA	Poor	Adenocarcinoma	Polypoid type	<5	34	1	Small	NA	T3-T4	N1-N2	M0	Stage III-IV	NA	Negative	Positive	NA	Negative	pMMR	0	32	0	32
+1762392	D4LN4	NLN_C1	NLN	LN4	Rectum	52	Male	NA	Poor	Adenocarcinoma	Polypoid type	<5	34	1	Small	NA	T3-T4	N1-N2	M0	Stage III-IV	NA	Negative	Positive	NA	Negative	pMMR	0	32	0	32
+1762392	D4LN5	NLN_C1	NLN	LN5	Rectum	52	Male	NA	Poor	Adenocarcinoma	Polypoid type	<5	34	1	Small	NA	T3-T4	N1-N2	M0	Stage III-IV	NA	Negative	Positive	NA	Negative	pMMR	0	32	0	32
+1762392	D4LN6	NLN_C3	NLN	LN6	Rectum	52	Male	NA	Poor	Adenocarcinoma	Polypoid type	<5	34	1	Small	NA	T3-T4	N1-N2	M0	Stage III-IV	NA	Negative	Positive	NA	Negative	pMMR	0	32	0	32
+1762392	D4LN7	NLN_C1	NLN	LN7	Rectum	52	Male	NA	Poor	Adenocarcinoma	Polypoid type	<5	34	1	Small	NA	T3-T4	N1-N2	M0	Stage III-IV	NA	Negative	Positive	NA	Negative	pMMR	0	32	0	32
+1762416	LN1G4	NLN_C4	NLN	LN1	Rectum	75	Male	<25	Moderate	Adenocarcinoma	Ulcerative type	<5	15	0	Large	D1	T1-T2	N0	M0	Stage I-II	Negative	Negative	Negative	Positive	Negative	pMMR	0	29	0	29
+1762416	LN3G4	NLN_C4	NLN	LN3	Rectum	75	Male	<25	Moderate	Adenocarcinoma	Ulcerative type	<5	15	0	Small	D1	T1-T2	N0	M0	Stage I-II	Negative	Negative	Negative	Positive	Negative	pMMR	0	29	0	29
+1762483	B61RL1x0	NLN_C2	NLN	LN1	Right colon	55	Female	<25	Moderate	Adenocarcinoma	Ulcerative type	<5	22	0	Small	D2	T3-T4	N0	M0	Stage I-II	Negative	Positive	NA	Positive	Negative	pMMR	0	30	0	30
+1762483	B61RL2x0	NLN_C1	NLN	LN2	Right colon	55	Female	<25	Moderate	Adenocarcinoma	Ulcerative type	<5	22	0	Small	D2	T3-T4	N0	M0	Stage I-II	Negative	Positive	NA	Positive	Negative	pMMR	0	30	0	30
+1762787	F7LN1	NLN_C4	PLN	LN1	Rectum	51	Female	<25	Poor	Adenocarcinoma	Polypoid type	<5	13	13	Small	NA	T3-T4	N1-N2	M0	Stage III-IV	Positive	Positive	Positive	NA	Negative	pMMR	0	33	0	33
+1762787	F7LN3	NLN_C1	PLN	LN3	Rectum	51	Female	<25	Poor	Adenocarcinoma	Polypoid type	<5	13	13	Small	NA	T3-T4	N1-N2	M0	Stage III-IV	Positive	Positive	Positive	NA	Negative	pMMR	0	33	0	33
+1763009	LN3G3	NLN_C3	NLN	LN3	Left colon	79	Male	<25	Poor	Adenocarcinoma	Ulcerative type	5-10	18	8	Small	NA	T3-T4	N1-N2	M0	Stage III-IV	Positive	Positive	Positive	NA	Negative	pMMR	1	4	1	4
+1763091	L1E6	PLN_C2	PLN	LN1	Right colon	49	Male	<25	Moderate	Adenocarcinoma	Ulcerative type	<5	39	0	Large	D1	T3-T4	N1-N2	M0	Stage III-IV	NA	Positive	Positive	Positive	Negative	pMMR	1	16	1	16
+1763144	LN1E8	PLN_C2	PLN	LN1	Rectum	62	Male	<25	Moderate	Adenocarcinoma	Ulcerative type	<5	12	0	Large	NA	T3-T4	N1-N2	M0	Stage III-IV	NA	Positive	Positive	Positive	Negative	pMMR	0	29	0	29
+1763144	LN2E8	NLN_C3	NLN	LN2	Rectum	62	Male	<25	Moderate	Adenocarcinoma	Ulcerative type	<5	12	0	Small	D3	T3-T4	N1-N2	M0	Stage III-IV	NA	Positive	Positive	Positive	Negative	pMMR	0	29	0	29
+1763144	LN3E8	NLN_C3	NLN	LN3	Rectum	62	Male	<25	Moderate	Adenocarcinoma	Ulcerative type	<5	12	0	Small	D3	T3-T4	N1-N2	M0	Stage III-IV	NA	Positive	Positive	Positive	Negative	pMMR	0	29	0	29
+1763144	LN4E8	NLN_C1	NLN	LN4	Rectum	62	Male	<25	Moderate	Adenocarcinoma	Ulcerative type	<5	12	0	Small	D3	T3-T4	N1-N2	M0	Stage III-IV	NA	Positive	Positive	Positive	Negative	pMMR	0	29	0	29
+1763353	D8ZL1x0	NLN_C1	NLN	LN1	Left colon	58	Male	<25	Moderate	Adenocarcinoma	Polypoid type	<5	18	0	Small	NA	T3-T4	N0	M0	Stage I-II	Negative	Negative	NA	Positive	Positive	pMMR	0	29	0	29
+1763353	D8ZL2x0	NLN_C3	NLN	LN2	Left colon	58	Male	<25	Moderate	Adenocarcinoma	Polypoid type	<5	18	0	Small	NA	T3-T4	N0	M0	Stage I-II	Negative	Negative	NA	Positive	Positive	pMMR	0	29	0	29
+1763387	LN1D1	NLN_C1	NLN	LN1	Rectum	58	Female	≥25	Moderate	Adenocarcinoma	Polypoid type	5-10	38	0	Small	NA	T3-T4	N0	M0	Stage I-II	Negative	Positive	NA	Positive	Negative	pMMR	0	36	1	28
+1763387	LN3D1	NLN_C3	NLN	LN3	Rectum	58	Female	≥25	Moderate	Adenocarcinoma	Polypoid type	5-10	38	0	Small	NA	T3-T4	N0	M0	Stage I-II	Negative	Positive	NA	Positive	Negative	pMMR	0	36	1	28
+1763387	LN5D1	NLN_C4	NLN	LN5	Rectum	58	Female	≥25	Moderate	Adenocarcinoma	Polypoid type	5-10	38	0	Small	NA	T3-T4	N0	M0	Stage I-II	Negative	Positive	NA	Positive	Negative	pMMR	0	36	1	28
+1763387	LN6D1	NLN_C4	NLN	LN6	Rectum	58	Female	≥25	Moderate	Adenocarcinoma	Polypoid type	5-10	38	0	Small	NA	T3-T4	N0	M0	Stage I-II	Negative	Positive	NA	Positive	Negative	pMMR	0	36	1	28
+1764443	D2ZL1z0	NLN_C1	NLN	LN1	Rectum	63	Male	<25	Moderate	Adenocarcinoma	Polypoid type	5-10	29	2	Small	NA	T3-T4	N1-N2	M0	Stage III-IV	Positive	Positive	Positive	Positive	Negative	pMMR	0	29	0	29
+1764443	D2ZL2z0	NLN_C2	NLN	LN2	Rectum	63	Male	<25	Moderate	Adenocarcinoma	Polypoid type	5-10	29	2	Small	NA	T3-T4	N1-N2	M0	Stage III-IV	Positive	Positive	Positive	Positive	Negative	pMMR	0	29	0	29
+1764514	LN1D5	NLN_C2	NLN	LN1	Left colon	40	Female	<25	Poor	Adenocarcinoma	Polypoid type	5-10	29	0	Small	NA	T1-T2	N0	M0	Stage I-II	Negative	Negative	NA	NA	Negative	pMMR	0	29	0	29
+1764514	LN2D5	NLN_C4	NLN	LN2	Left colon	40	Female	<25	Poor	Adenocarcinoma	Polypoid type	5-10	29	0	Large	NA	T1-T2	N0	M0	Stage I-II	Negative	Negative	NA	NA	Negative	pMMR	0	29	0	29
+1764514	LN3D5	NLN_C2	NLN	LN3	Left colon	40	Female	<25	Poor	Adenocarcinoma	Polypoid type	5-10	29	0	Large	NA	T1-T2	N0	M0	Stage I-II	Negative	Negative	NA	NA	Negative	pMMR	0	29	0	29
+1764514	LN4D5	NLN_C1	NLN	LN4	Left colon	40	Female	<25	Poor	Adenocarcinoma	Polypoid type	5-10	29	0	Large	NA	T1-T2	N0	M0	Stage I-II	Negative	Negative	NA	NA	Negative	pMMR	0	29	0	29
+1764514	LN5D5	NLN_C1	NLN	LN5	Left colon	40	Female	<25	Poor	Adenocarcinoma	Polypoid type	5-10	29	0	Large	NA	T1-T2	N0	M0	Stage I-II	Negative	Negative	NA	NA	Negative	pMMR	0	29	0	29
+1764879	LN1K33	NLN_C1	NLN	LN1	Rectum	51	Male	≥25	Moderate	Adenocarcinoma	Ulcerative type	5-10	14	1	Small	D1	T3-T4	N1-N2	M0	Stage III-IV	NA	Positive	NA	NA	Negative	pMMR	0	35	0	35
+1765139	F4LN3F4	NLN_C4	NLN	LN3	Rectum	55	Male	≥25	Moderate	Adenocarcinoma	Polypoid type	<5	13	0	Small	NA	T1-T2	N0	M0	Stage I-II	Negative	Negative	Negative	NA	Negative	pMMR	0	29	0	29
+1765415	D9LN6	NLN_C3	NLN	LN6	Rectum	56	Male	≥25	Moderate	Adenocarcinoma	Ulcerative type	<5	11	0	Small	D2	T1-T2	N0	M0	Stage I-II	Negative	Negative	NA	Positive	Negative	pMMR	0	29	0	29
+1765415	D9LN8	NLN_C4	NLN	LN8	Rectum	56	Male	≥25	Moderate	Adenocarcinoma	Ulcerative type	<5	11	0	Small	D3	T1-T2	N0	M0	Stage I-II	Negative	Negative	NA	Positive	Negative	pMMR	0	29	0	29
+1765415	LN1D9	NLN_C1	NLN	LN1	Rectum	56	Male	≥25	Moderate	Adenocarcinoma	Ulcerative type	<5	11	0	Small	NA	T1-T2	N0	M0	Stage I-II	Negative	Negative	NA	Positive	Negative	pMMR	0	29	0	29
+1765415	LN2D9	NLN_C2	NLN	LN2	Rectum	56	Male	≥25	Moderate	Adenocarcinoma	Ulcerative type	<5	11	0	Small	D2	T1-T2	N0	M0	Stage I-II	Negative	Negative	NA	Positive	Negative	pMMR	0	29	0	29
+1765415	LN3D9	NLN_C3	NLN	LN3	Rectum	56	Male	≥25	Moderate	Adenocarcinoma	Ulcerative type	<5	11	0	Small	D2	T1-T2	N0	M0	Stage I-II	Negative	Negative	NA	Positive	Negative	pMMR	0	29	0	29
+1765415	LN5D9	NLN_C2	NLN	LN5	Rectum	56	Male	≥25	Moderate	Adenocarcinoma	Ulcerative type	<5	11	0	Small	D3	T1-T2	N0	M0	Stage I-II	Negative	Negative	NA	Positive	Negative	pMMR	0	29	0	29
+1765415	LN7D9	NLN_C3	NLN	LN7	Rectum	56	Male	≥25	Moderate	Adenocarcinoma	Ulcerative type	<5	11	0	Small	D2	T1-T2	N0	M0	Stage I-II	Negative	Negative	NA	Positive	Negative	pMMR	0	29	0	29
+1766076	F5ZL1z0	NLN_C1	NLN	LN1	Rectum	64	Male	<25	Moderate	Adenocarcinoma	Ulcerative type	<5	14	0	Small	NA	T3-T4	N0	M0	Stage I-II	Negative	Negative	NA	Positive	Negative	pMMR	0	29	0	29
+1766076	F5ZL2z0	NLN_C3	NLN	LN2	Rectum	64	Male	<25	Moderate	Adenocarcinoma	Ulcerative type	<5	14	0	Small	NA	T3-T4	N0	M0	Stage I-II	Negative	Negative	NA	Positive	Negative	pMMR	0	29	0	29
+1766447	F6LN3	NLN_C1	NLN	LN3	Rectum	63	Male	≥25	Moderate	Adenocarcinoma	Polypoid type	<5	26	0	Small	D1	T3-T4	N0	M0	Stage I-II	Negative	Negative	Negative	Positive	Negative	pMMR	0	34	0	34
+1766447	F6LN4F6	NLN_C2	NLN	LN4	Rectum	63	Male	≥25	Moderate	Adenocarcinoma	Polypoid type	<5	26	0	Small	D2	T3-T4	N0	M0	Stage I-II	Negative	Negative	Negative	Positive	Negative	pMMR	0	34	0	34
+1766447	F6LN5F6	NLN_C4	NLN	LN5	Rectum	63	Male	≥25	Moderate	Adenocarcinoma	Polypoid type	<5	26	0	Small	D2	T3-T4	N0	M0	Stage I-II	Negative	Negative	Negative	Positive	Negative	pMMR	0	34	0	34
+1766447	LN1F6	NLN_C1	NLN	LN1	Rectum	63	Male	≥25	Moderate	Adenocarcinoma	Polypoid type	<5	26	0	Small	D1	T3-T4	N0	M0	Stage I-II	Negative	Negative	Negative	Positive	Negative	pMMR	0	34	0	34
+1766642	G5ZL1z0	NLN_C1	NLN	LN1	Rectum	75	Female	<25	Moderate	Adenocarcinoma	Ulcerative type	<5	29	0	Small	NA	T1-T2	N0	M0	Stage I-II	Negative	Negative	NA	Positive	Negative	pMMR	0	29	0	29
+1766642	G5ZL2z0	NLN_C3	NLN	LN2	Rectum	75	Female	<25	Moderate	Adenocarcinoma	Ulcerative type	<5	29	0	Small	NA	T1-T2	N0	M0	Stage I-II	Negative	Negative	NA	Positive	Negative	pMMR	0	29	0	29
+1766846	LN2E9	NLN_C2	NLN	LN2	Rectum	52	Male	≥25	Poor	Adenocarcinoma	Polypoid type	<5	14	0	Small	NA	T3-T4	N0	M0	Stage I-II	Positive	Positive	Positive	NA	Negative	pMMR	0	28	0	28
+1766846	LN3E9	NLN_C2	NLN	LN3	Rectum	52	Male	≥25	Poor	Adenocarcinoma	Polypoid type	<5	14	0	Small	NA	T3-T4	N0	M0	Stage I-II	Positive	Positive	Positive	NA	Negative	pMMR	0	28	0	28
+1767628	H5RL1z0	NLN_C1	NLN	LN1	Right colon	58	Female	<25	Moderate	Adenocarcinoma	Ulcerative type	<5	22	0	Small	D1	T1-T2	N0	M0	Stage I-II	Positive	Negative	NA	Positive	Negative	pMMR	0	29	0	29
+1767628	H5RL2z0	NLN_C1	NLN	LN2	Right colon	58	Female	<25	Moderate	Adenocarcinoma	Ulcerative type	<5	22	0	Small	D1	T1-T2	N0	M0	Stage I-II	Positive	Negative	NA	Positive	Negative	pMMR	0	29	0	29
+1769634	H6zL1x0	NLN_C4	NLN	LN1	Rectum	57	Male	<25	Poor	Adenocarcinoma	Ulcerative type	<5	23	4	Small	NA	T3-T4	N1-N2	M0	Stage III-IV	Positive	Positive	Positive	Positive	Negative	pMMR	0	29	0	29
+1769634	H6zL2x1	PLN_C1	PLN	LN2	Rectum	57	Male	<25	Poor	Adenocarcinoma	Ulcerative type	<5	23	4	Large	NA	T3-T4	N1-N2	M0	Stage III-IV	Positive	Positive	Positive	Positive	Negative	pMMR	0	29	0	29
+1770310	LN1K39	NLN_C1	NLN	LN1	Rectum	49	Male	≥25	Moderate	Adenocarcinoma	Ulcerative type	5-10	27	0	Small	D1	T3-T4	N0	M0	Stage I-II	Positive	NA	Positive	Negative	Negative	pMMR	0	27	1	16
+1770310	LN2K39	NLN_C4	NLN	LN2	Rectum	49	Male	≥25	Moderate	Adenocarcinoma	Ulcerative type	5-10	27	0	Small	D1	T3-T4	N0	M0	Stage I-II	Positive	NA	Positive	Negative	Negative	pMMR	0	27	1	16
+1770310	LN3K39	NLN_C2	NLN	LN3	Rectum	49	Male	≥25	Moderate	Adenocarcinoma	Ulcerative type	5-10	27	0	Small	D1	T3-T4	N0	M0	Stage I-II	Positive	NA	Positive	Negative	Negative	pMMR	0	27	1	16
+1771914	K54LN1	NLN_C4	PLN	LN1	Rectum	82	Male	<25	Poor	Adenocarcinoma	Ulcerative type	<5	21	1	Large	D1	T3-T4	N1-N2	M0	Stage III-IV	Positive	Negative	Positive	Positive	Negative	pMMR	0	32	1	24
+1771914	K54LN3	NLN_C2	NLN	LN3	Rectum	82	Male	<25	Poor	Adenocarcinoma	Ulcerative type	<5	21	1	Small	D1	T3-T4	N1-N2	M0	Stage III-IV	Positive	Negative	Positive	Positive	Negative	pMMR	0	32	1	24
+1771914	LN2K54	NLN_C2	NLN	LN2	Rectum	82	Male	<25	Poor	Adenocarcinoma	Ulcerative type	<5	21	1	Small	D1	T3-T4	N1-N2	M0	Stage III-IV	Positive	Negative	Positive	Positive	Negative	pMMR	0	32	1	24
+1772259	LN1J3	NLN_C4	NLN	LN1	Rectum	51	Male	<25	Poor	Adenocarcinoma	Ulcerative type	<5	16	3	Small	D1	T3-T4	N1-N2	M0	Stage III-IV	Negative	Positive	Positive	NA	Negative	pMMR	1	22	1	16
+1772315	K23L5	NLN_C1	NLN	LN5	Rectum	45	Female	<25	Moderate	Adenocarcinoma	Polypoid type	<5	26	0	Small	D1	T1-T2	N0	M0	Stage I-II	Negative	Negative	NA	Positive	Positive	pMMR	0	32	0	32
+1772683	LN1J5	NLN_C3	NLN	LN1	Left colon	53	Female	<25	Moderate	Adenocarcinoma	Ulcerative type	<5	24	0	Small	D1	T1-T2	N0	M0	Stage I-II	NA	Negative	Positive	Positive	Negative	pMMR	0	28	0	28
+1772683	LN2J5	NLN_C4	NLN	LN2	Left colon	53	Female	<25	Moderate	Adenocarcinoma	Ulcerative type	<5	24	0	Small	D1	T1-T2	N0	M0	Stage I-II	NA	Negative	Positive	Positive	Negative	pMMR	0	28	0	28
+1773089	H15RL1z0	NLN_C1	NLN	LN1	Right colon	58	Male	<25	Moderate	Adenocarcinoma	Polypoid type	<5	56	0	Small	NA	T3-T4	N0	M0	Stage I-II	Negative	Positive	NA	Positive	Negative	pMMR	0	29	0	29
+1773089	H15RL2z0	NLN_C1	NLN	LN2	Right colon	58	Male	<25	Moderate	Adenocarcinoma	Polypoid type	<5	56	0	Small	NA	T3-T4	N0	M0	Stage I-II	Negative	Positive	NA	Positive	Negative	pMMR	0	29	0	29
+1773956	LN1J6	NLN_C4	PLN	LN1	Rectum	75	Male	NA	Moderate	Adenocarcinoma	Ulcerative type	<5	29	4	Small	D1	T3-T4	N1-N2	M1	Stage III-IV	Positive	Positive	Negative	Negative	Negative	pMMR	1	36	1	28
+1773956	LN2J6	NLN_C3	NLN	LN2	Rectum	75	Male	NA	Moderate	Adenocarcinoma	Ulcerative type	<5	29	4	Small	D1	T3-T4	N1-N2	M1	Stage III-IV	Positive	Positive	Negative	Negative	Negative	pMMR	1	36	1	28
+1774505	K3LN3	NLN_C1	NLN	LN1	Rectum	68	Male	NA	Moderate	Adenocarcinoma	Polypoid type	<5	15	0	Small	NA	T1-T2	N0	M0	Stage I-II	Negative	Negative	NA	Positive	Negative	pMMR	0	28	0	28
+1774719	L2K53	NLN_C1	NLN	LN2	Right colon	19	Male	<25	Moderate	Adenocarcinoma	Polypoid type	<5	72	0	Small	NA	T3-T4	N0	M0	Stage I-II	Negative	Negative	NA	Positive	Negative	pMMR	0	27	0	27
+1774719	L4K53	NLN_C1	NLN	LN4	Right colon	19	Male	<25	Moderate	Adenocarcinoma	Polypoid type	<5	72	0	Large	NA	T3-T4	N0	M0	Stage I-II	Negative	Negative	NA	Positive	Negative	pMMR	0	27	0	27
+1774719	L5K53	NLN_C4	NLN	LN5	Right colon	19	Male	<25	Moderate	Adenocarcinoma	Polypoid type	<5	72	0	Large	NA	T3-T4	N0	M0	Stage I-II	Negative	Negative	NA	Positive	Negative	pMMR	0	27	0	27
+1775327	L3K22	NLN_C2	NLN	LN3	Rectum	64	Female	≥25	Moderate	Adenocarcinoma	Polypoid type	<5	15	0	Small	NA	T1-T2	N0	M0	Stage I-II	Negative	Negative	NA	NA	Negative	pMMR	0	26	0	26
+1775334	LN2K52	NLN_C2	NLN	LN2	Rectum	45	Female	<25	Well	Adenocarcinoma	Polypoid type	<5	12	0	Small	D1	T3-T4	N0	M0	Stage I-II	Negative	Negative	NA	Positive	Negative	pMMR	0	28	0	28
+1778649	K56LN1	NLN_C3	NLN	LN1	Rectum	54	Male	≥25	Moderate	Adenocarcinoma	Ulcerative type	5-10	13	1	Large	D1	T3-T4	N1-N2	M0	Stage III-IV	Positive	Positive	Positive	Positive	Negative	pMMR	0	27	0	27
+1779230	LN1K32	NLN_C4	NLN	LN1	Left colon	55	Male	<25	Moderate	Adenocarcinoma	Polypoid type	5-10	29	0	Small	D1	T3-T4	N0	M0	Stage I-II	NA	Positive	Positive	NA	Negative	pMMR	0	27	0	27
+1779230	LN2K32	NLN_C2	NLN	LN2	Left colon	55	Male	<25	Moderate	Adenocarcinoma	Polypoid type	5-10	29	0	Small	D1	T3-T4	N0	M0	Stage I-II	NA	Positive	Positive	NA	Negative	pMMR	0	27	0	27
+1779230	LN3K32	NLN_C2	NLN	LN3	Left colon	55	Male	<25	Moderate	Adenocarcinoma	Polypoid type	5-10	29	0	Large	D2	T3-T4	N0	M0	Stage I-II	NA	Positive	Positive	NA	Negative	pMMR	0	27	0	27
+1780022	K26LN2	NLN_C2	NLN	LN2	Right colon	73	Female	<25	Moderate	Mucinous adenocarcinoma	Polypoid type	>10	48	0	Large	D1	T3-T4	N0	M0	Stage I-II	Negative	Negative	NA	NA	Negative	dMMR	0	25	0	25
+1780022	LN1K26	NLN_C1	NLN	LN1	Right colon	73	Female	<25	Moderate	Mucinous adenocarcinoma	Polypoid type	>10	48	0	Small	D1	T3-T4	N0	M0	Stage I-II	Negative	Negative	NA	NA	Negative	dMMR	0	25	0	25
+1780022	LN3K26	NLN_C2	NLN	LN3	Right colon	73	Female	<25	Moderate	Mucinous adenocarcinoma	Polypoid type	>10	48	0	Large	D1	T3-T4	N0	M0	Stage I-II	Negative	Negative	NA	NA	Negative	dMMR	0	25	0	25
+1780026	K31LN2	NLN_C1	NLN	LN2	Rectum	65	Male	<25	Moderate	Adenocarcinoma	Ulcerative type	<5	25	0	Small	D1	T3-T4	N0	M0	Stage I-II	Positive	Positive	Positive	Negative	Negative	pMMR	0	36	0	36
+1780026	LN1K31	NLN_C4	NLN	LN1	Rectum	65	Male	<25	Moderate	Adenocarcinoma	Ulcerative type	<5	25	0	Small	D1	T3-T4	N0	M0	Stage I-II	Positive	Positive	Positive	Negative	Negative	pMMR	0	36	0	36
+1780358	LN1K38	NLN_C2	NLN	LN1	Rectum	62	Female	<25	Moderate	Adenocarcinoma	Ulcerative type	<5	27	0	Small	D1	T1-T2	N0	M0	Stage I-II	Negative	Negative	NA	Positive	Negative	pMMR	0	27	0	27
+1780358	LN2K38	NLN_C2	NLN	LN2	Rectum	62	Female	<25	Moderate	Adenocarcinoma	Ulcerative type	<5	27	0	Small	D1	T1-T2	N0	M0	Stage I-II	Negative	Negative	NA	Positive	Negative	pMMR	0	27	0	27
+1781269	LN1K35	NLN_C4	NLN	LN1	Right colon	77	Male	<25	Poor	Adenocarcinoma	Ulcerative type	5-10	44	0	Large	D1	T3-T4	N0	M0	Stage I-II	Negative	Negative	NA	NA	Negative	dMMR	0	27	0	27
+1781269	LN2K35	NLN_C1	NLN	LN2	Right colon	77	Male	<25	Poor	Adenocarcinoma	Ulcerative type	5-10	44	0	Small	D1	T3-T4	N0	M0	Stage I-II	Negative	Negative	NA	NA	Negative	dMMR	0	27	0	27
+1781273	K63L1	NLN_C1	PLN	LN1	Rectum	55	Male	<25	Poor	Adenocarcinoma	Ulcerative type	<5	23	10	Small	NA	T3-T4	N1-N2	M0	Stage III-IV	NA	Positive	Positive	Positive	Negative	pMMR	0	27	1	12
+1781273	K63L2	NLN_C2	NLN	LN2	Rectum	55	Male	<25	Poor	Adenocarcinoma	Ulcerative type	<5	23	10	Large	NA	T3-T4	N1-N2	M0	Stage III-IV	NA	Positive	Positive	Positive	Negative	pMMR	0	27	1	12
+1781273	K63L3	PLN_C2	PLN	LN3	Rectum	55	Male	<25	Poor	Adenocarcinoma	Ulcerative type	<5	23	10	Large	NA	T3-T4	N1-N2	M0	Stage III-IV	NA	Positive	Positive	Positive	Negative	pMMR	0	27	1	12
+1782106	K64L1	NLN_C2	NLN	LN1	Rectum	65	Female	<25	Moderate	Adenocarcinoma	Ulcerative type	5-10	27	2	Large	D1	T3-T4	N1-N2	M0	Stage III-IV	NA	Positive	Positive	Positive	Negative	pMMR	0	27	0	27
+1782106	K64L2	NLN_C2	PLN	LN2	Rectum	65	Female	<25	Moderate	Adenocarcinoma	Ulcerative type	5-10	27	2	Small	D1	T3-T4	N1-N2	M0	Stage III-IV	NA	Positive	Positive	Positive	Negative	pMMR	0	27	0	7
+1782115	K30LN1	PLN_C2	PLN	LN1	Left colon	73	Female	≥25	Poor	Adenocarcinoma	Ulcerative type	<5	25	4	Small	D1	T3-T4	N1-N2	M0	Stage III-IV	NA	Positive	Positive	Positive	Negative	pMMR	0	27	0	27
+1782115	K30LN2	NLN_C1	NLN	LN2	Left colon	73	Female	≥25	Poor	Adenocarcinoma	Ulcerative type	<5	25	4	Small	D1	T3-T4	N1-N2	M0	Stage III-IV	NA	Positive	Positive	Positive	Negative	pMMR	0	27	0	27
+1782115	K30LN3	PLN_C1	PLN	LN3	Left colon	73	Female	≥25	Poor	Adenocarcinoma	Ulcerative type	<5	25	4	Small	D1	T3-T4	N1-N2	M0	Stage III-IV	NA	Positive	Positive	Positive	Negative	pMMR	0	27	0	27
+1783756	K62L2	PLN_C2	NLN	LN2	Left colon	50	Female	≥25	Poor	Adenocarcinoma	Polypoid type	<5	20	0	Small	D1	T3-T4	N0	M0	Stage I-II	Positive	Positive	NA	NA	Negative	pMMR	0	27	0	27
+1783756	K62L3	NLN_C3	NLN	LN3	Left colon	50	Female	≥25	Poor	Adenocarcinoma	Polypoid type	<5	20	0	Small	D1	T3-T4	N0	M0	Stage I-II	Positive	Positive	NA	NA	Negative	pMMR	0	27	0	27
+1785980	LN3K60	NLN_C4	NLN	LN3	Rectum	59	Male	≥25	Moderate	Adenocarcinoma	Polypoid type	<5	21	0	Small	D1	T1-T2	N0	M0	Stage I-II	Negative	Negative	NA	NA	Negative	pMMR	0	26	0	26
+1787666	K68L1	PLN_C2	PLN	LN1	Left colon	54	Female	≥25	Poor	Adenocarcinoma	Polypoid type	<5	23	4	Small	D1	T3-T4	N1-N2	M0	Stage III-IV	Positive	Positive	Positive	Positive	Negative	pMMR	0	26	0	26
+1787666	K68L2	NLN_C3	NLN	LN2	Left colon	54	Female	≥25	Poor	Adenocarcinoma	Polypoid type	<5	23	4	Small	D1	T3-T4	N1-N2	M0	Stage III-IV	Positive	Positive	Positive	Positive	Negative	pMMR	0	26	0	26
+1787666	K68L3	NLN_C1	NLN	LN3	Left colon	54	Female	≥25	Poor	Adenocarcinoma	Polypoid type	<5	23	4	Small	D1	T3-T4	N1-N2	M0	Stage III-IV	Positive	Positive	Positive	Positive	Negative	pMMR	0	26	0	26
+1787697	K66L2	NLN_C2	NLN	LN2	Rectum	55	Male	≥25	Moderate	Adenocarcinoma	Polypoid type	5-10	83	0	Small	NA	T3-T4	N0	M0	Stage I-II	Positive	Negative	Positive	Positive	Negative	pMMR	0	26	0	26
+1787697	K66L3	NLN_C2	NLN	LN3	Rectum	55	Male	≥25	Moderate	Adenocarcinoma	Polypoid type	5-10	83	0	Small	NA	T3-T4	N0	M0	Stage I-II	Positive	Negative	Positive	Positive	Negative	pMMR	0	26	0	26
+1787741	LN1K59	PLN_C1	NLN	LN1	Rectum	72	Female	≥25	Poor	Adenocarcinoma	Polypoid type	<5	15	12	Small	D1	T3-T4	N1-N2	M0	Stage III-IV	Positive	Positive	Negative	Negative	Negative	pMMR	1	17	1	17
+1787741	LN3K59	PLN_C1	PLN	LN3	Rectum	72	Female	≥25	Poor	Adenocarcinoma	Polypoid type	<5	15	12	Small	D1	T3-T4	N1-N2	M0	Stage III-IV	Positive	Positive	Negative	Negative	Negative	pMMR	1	17	1	17
+1796660	LN_283	NLN_C2	PLN	LN1	Rectum	76	Male	<25	Poor	Adenocarcinoma	Ulcerative type	<5	17	2	Small	NA	T3-T4	N1-N2	M1	Stage III-IV	Negative	Negative	NA	NA	Negative	pMMR	0	24	0	24
+1797031	LN_295	PLN_C2	NLN	LN1	Left colon	51	Male	<25	Moderate	Adenocarcinoma	Ulcerative type	<5	33	2	Small	NA	T3-T4	N1-N2	M0	Stage III-IV	Negative	Positive	Positive	Positive	Negative	pMMR	0	23	1	10
+1798242	LN_324	NLN_C4	PLN	LN1	Rectum	76	Male	≥25	Poor	Adenocarcinoma	Ulcerative type	<5	13	5	Large	NA	T3-T4	N1-N2	M0	Stage III-IV	NA	Positive	Positive	NA	Negative	pMMR	0	23	1	9
+1798242	LN2_324	PLN_C2	PLN	LN2	Rectum	76	Male	≥25	Poor	Adenocarcinoma	Ulcerative type	<5	13	5	Large	NA	T3-T4	N1-N2	M0	Stage III-IV	NA	Positive	Positive	NA	Negative	pMMR	0	23	1	9
+1799144	LN_336	PLN_C1	NLN	LN1	Rectum	50	Male	NA	Moderate	Mucinous adenocarcinoma	Polypoid type	>10	22	0	NA	NA	T3-T4	N0	M0	Stage I-II	Negative	Negative	NA	NA	Negative	pMMR	0	27	0	27
+1800961	LN_355	NLN_C3	NLN	LN1	Right colon	46	Male	<25	NA	NA	Ulcerative type	5-10	21	0	Small	NA	T3-T4	N0	M0	Stage I-II	NA	NA	NA	NA	NA	pMMR	0	22	0	22
+1803086	LN_337	NLN_C3	NLN	LN1	Right colon	49	Female	<25	Poor	Adenocarcinoma	Ulcerative type	<5	21	0	Small	NA	T3-T4	N0	M0	Stage I-II	Positive	Negative	NA	NA	Negative	dMMR	0	22	0	22
+1805546	LN2_1_361	NLN_C3	NLN	LN1	Right colon	59	Female	<25	Moderate	Mucinous adenocarcinoma	Ulcerative type	5-10	53	0	Small	NA	T3-T4	N0	M0	Stage I-II	Negative	Positive	NA	NA	Negative	dMMR	0	22	0	22
+1805546	LN2_361	NLN_C3	NLN	LN2	Right colon	59	Female	<25	Moderate	Mucinous adenocarcinoma	Ulcerative type	5-10	53	0	Small	NA	T3-T4	N0	M0	Stage I-II	Negative	Positive	NA	NA	Negative	dMMR	0	22	0	22
+1805556	LN_391	NLN_C4	NLN	LN1	Rectum	56	Male	≥25	Poor	Adenocarcinoma	Polypoid type	5-10	23	0	Large	NA	T3-T4	N0	M0	Stage I-II	NA	Negative	Positive	NA	Negative	pMMR	0	22	1	4
+1805603	LN_1_360	PLN_C2	PLN	LN1	Right colon	61	Female	≥25	Moderate	Adenocarcinoma	Polypoid type	<5	42	5	Large	NA	T3-T4	N1-N2	M0	Stage III-IV	Positive	Negative	NA	Positive	Negative	pMMR	0	22	0	22
+1805603	LN_360	PLN_C1	PLN	LN2	Right colon	61	Female	≥25	Moderate	Adenocarcinoma	Polypoid type	<5	42	5	Large	NA	T3-T4	N1-N2	M0	Stage III-IV	Positive	Negative	NA	Positive	Negative	pMMR	0	22	0	22
+1808481	LN_366	PLN_C1	NLN	LN1	Left colon	68	Male	<25	Poor	Adenocarcinoma	Ulcerative type	<5	15	0	Small	NA	T3-T4	N1-N2	M0	Stage III-IV	Negative	Negative	NA	Positive	Negative	pMMR	0	22	0	22
+1808481	LN2_366	NLN_C3	NLN	LN2	Left colon	68	Male	<25	Poor	Adenocarcinoma	Ulcerative type	<5	15	0	Small	NA	T3-T4	N1-N2	M0	Stage III-IV	Negative	Negative	NA	Positive	Negative	pMMR	0	22	0	22
+1809136	LN_397	NLN_C3	PLN	LN1	Rectum	53	Female	<25	Poor	Adenocarcinoma	Polypoid type	<5	39	1	Small	NA	T1-T2	N1-N2	M0	Stage III-IV	Negative	Negative	NA	NA	Negative	pMMR	0	22	0	22
+1810551	LN_410	PLN_C1	NLN	LN1	Left colon	51	Female	<25	Moderate	Adenocarcinoma	Polypoid type	<5	10	1	Small	NA	T3-T4	N1-N2	M0	Stage III-IV	Positive	Positive	NA	NA	NA	pMMR	0	21	0	21

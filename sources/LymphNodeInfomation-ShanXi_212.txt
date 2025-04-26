@@ -1,0 +1,234 @@
+MedicalRecordID	SampleID	GroupByGene	LNMStatus	PathologicalID	SampleName	TumorLocation	Age	Sex	BMI	DifferentiationGrade	PathologicalType	HistologicalType	TumorSize	TotalLN	PosLN	LNSize	LNLocation	T	N	M	TNM stage	Vascular Thrombosis	PNI	EMVI	Tumor Budding	BRAF	MSS/MSI
+2322820	Tco230339_Q_N_1	PLN_C1	PLN	2023-11032	C9-LN1	Rectum	75	Female		Moderate	Adenocarcinoma	Ulcerative type	<5	11	6	Small	D1	T3-T4	N1-N2	M0	Stage III-IV	Negative	Negative	NA	Positive	Negative	pMMR
+2322820	Tco230339_Q_N_2	PLN_C1	PLN	2023-11032	C9-LN2	Rectum	75	Female		Moderate	Adenocarcinoma	Ulcerative type	<5	11	6	Small	D2	T3-T4	N1-N2	M0	Stage III-IV	Negative	Negative	NA	Positive	Negative	pMMR
+2322820	Tco230339_Q_N_3	PLN_C1	PLN	2023-11032	C9-LN3	Rectum	75	Female		Moderate	Adenocarcinoma	Ulcerative type	<5	11	6	Small	D3	T3-T4	N1-N2	M0	Stage III-IV	Negative	Negative	NA	Positive	Negative	pMMR
+2322671	Tco230340_Q_N_3	NLN_C1	NLN	2023-11046	C10-LN1	Left colon	70	Male		Moderate	Adenocarcinoma	Ulcerative type	<5	20	0	Small	D1	T3-T4	N0	M0	Stage I-II	Negative	Negative	NA	Positive	Negative	pMMR
+2322671	Tco230340_Q_N_1	NLN_C2	NLN	2023-11046	C10-LN2	Left colon	70	Male		Moderate	Adenocarcinoma	Ulcerative type	<5	20	0	Small	D2	T3-T4	N0	M0	Stage I-II	Negative	Negative	NA	Positive	Negative	pMMR
+2322671	Tco230340_Q_N_2	NLN_C3	NLN	2023-11046	C10-LN3	Left colon	70	Male		Moderate	Adenocarcinoma	Ulcerative type	<5	20	0	Small	D3	T3-T4	N0	M0	Stage I-II	Negative	Negative	NA	Positive	Negative	pMMR
+2323183	Tco230336_Q_N_1	NLN_C2	NLN	2023-11069	C8-LN1	Right colon	87	Male		Moderate	Adenocarcinoma	Ulcerative type	<5	25	0	Small	D1	T3-T4	N0	M0	Stage I-II	Negative	Negative	NA	Positive	Negative	pMMR
+2323183	Tco230336_Q_N_2	NLN_C2	NLN	2023-11069	C8-LN2	Right colon	87	Male		Moderate	Adenocarcinoma	Ulcerative type	<5	25	0	Small	D1	T3-T4	N0	M0	Stage I-II	Negative	Negative	NA	Positive	Negative	pMMR
+2323183	Tco230336_Q_N_3	NLN_C2	NLN	2023-11069	C8-LN3	Right colon	87	Male		Moderate	Adenocarcinoma	Ulcerative type	<5	25	0	Small	D3	T3-T4	N0	M0	Stage I-II	Negative	Negative	NA	Positive	Negative	pMMR
+2322470	Tco230343_Q_N_1	NLN_C3	NLN	2023-11079	C11-LN1	Left colon	46	Male		Moderate	Adenocarcinoma	Ulcerative type	5-10	16	1	Small	D1	T3-T4	N1-N2	M0	Stage III-IV	Negative	Negative	NA	Positive	Negative	pMMR
+2322470	Tco230343_Q_N_2	NLN_C3	NLN	2023-11079	C11-LN2	Left colon	46	Male		Moderate	Adenocarcinoma	Ulcerative type	5-10	16	1	Small	D2	T3-T4	N1-N2	M0	Stage III-IV	Negative	Negative	NA	Positive	Negative	pMMR
+2322470				2023-11079	C11-LN3	Left colon	46	Male		Moderate	Adenocarcinoma	Ulcerative type	5-10	16	1	Small	D3	T3-T4	N1-N2	M0	Stage III-IV	Negative	Negative	NA	Positive	Negative	pMMR
+2322241	Tco230344_Q_N_2	NLN_C2	NLN	2023-11084	C12-LN1	Left colon	62	Male		Moderate	Adenocarcinoma	Polypoid type	5-10	17	0	Small	D1	T1-T2	N0	M0	Stage I-II	Negative	Negative	NA	Positive	Positive	pMMR
+2322241	Tco230344_Q_N_3	NLN_C2	NLN	2023-11084	C12-LN2	Left colon	62	Male		Moderate	Adenocarcinoma	Polypoid type	5-10	17	0	Small	D2	T1-T2	N0	M0	Stage I-II	Negative	Negative	NA	Positive	Positive	pMMR
+2322241	Tco230344_Q_N_1	NLN_C3	NLN	2023-11084	C12-LN3	Left colon	62	Male		Moderate	Adenocarcinoma	Polypoid type	5-10	17	0	Small	D3	T1-T2	N0	M0	Stage I-II	Negative	Negative	NA	Positive	Positive	pMMR
+2322797	Tco230354_Q_N_1	PLN_C1	NLN	2023-11171	C17-LN1	Left colon	54	Male		Moderate	Adenocarcinoma	Ulcerative type	<5	11	3	Small	D1	T1-T2	N1-N2	M0	Stage III-IV	Positive	Negative	NA	Positive	Negative	pMMR
+2322797	Tco230354_Q_N_2	PLN_C1	PLN	2023-11171	C17-LN2	Left colon	54	Male		Moderate	Adenocarcinoma	Ulcerative type	<5	11	3	Small	D2	T1-T2	N1-N2	M0	Stage III-IV	Positive	Negative	NA	Positive	Negative	pMMR
+2322747	Tco230348_Q_N_1	NLN_C2	NLN	2023-11182	C14-LN1	Right colon	70	Male		Moderate	Mucinous adenocarcinoma	Ulcerative type	5-10	21	0	Small	D1	T3-T4	N0	M0	Stage I-II	Negative	Negative	NA	Positive	Negative	dMMR
+2322747	Tco230348_Q_N_3	NLN_C2	NLN	2023-11182	C14-LN2	Right colon	70	Male		Moderate	Mucinous adenocarcinoma	Ulcerative type	5-10	21	0	Small	D2	T3-T4	N0	M0	Stage I-II	Negative	Negative	NA	Positive	Negative	dMMR
+2322747	Tco230348_Q_N_2	PLN_C1	NLN	2023-11182	C14-LN3	Right colon	70	Male		Moderate	Mucinous adenocarcinoma	Ulcerative type	5-10	21	0	Small	D3	T3-T4	N0	M0	Stage I-II	Negative	Negative	NA	Positive	Negative	dMMR
+2322343	Tco230347_Q_N_1	NLN_C2	NLN	2023-11195	C13-LN1	Rectum	64	Female		Moderate	Adenocarcinoma	Ulcerative type	<5	18	0	Small	D1	T3-T4	N0	M0	Stage I-II	Negative	Negative	NA	Positive	Negative	pMMR
+2322343	Tco230347_Q_N_3	NLN_C2	NLN	2023-11195	C13-LN2	Rectum	64	Female		Moderate	Adenocarcinoma	Ulcerative type	<5	18	0	Small	D2	T3-T4	N0	M0	Stage I-II	Negative	Negative	NA	Positive	Negative	pMMR
+2322343	Tco230347_Q_N_2	NLN_C3	NLN	2023-11195	C13-LN3	Rectum	64	Female		Moderate	Adenocarcinoma	Ulcerative type	<5	18	0	Small	D3	T3-T4	N0	M0	Stage I-II	Negative	Negative	NA	Positive	Negative	pMMR
+2322110	Tco230351_Q_N_3	NLN_C1	NLN	2023-11204	C15-LN1	Right colon	61	Male		Moderate	Mucinous adenocarcinoma	Ulcerative type	5-10	11	0	Small	D1	T3-T4	N0	M0	Stage I-II	Negative	Negative	NA	Positive	NA	pMMR
+2322110	Tco230351_Q_N_1	NLN_C2	NLN	2023-11204	C15-LN2	Right colon	61	Male		Moderate	Mucinous adenocarcinoma	Ulcerative type	5-10	11	0	Small	D2	T3-T4	N0	M0	Stage I-II	Negative	Negative	NA	Positive	NA	pMMR
+2322110	Tco230351_Q_N_2	NLN_C2	NLN	2023-11204	C15-LN3	Right colon	61	Male		Moderate	Mucinous adenocarcinoma	Ulcerative type	5-10	11	0	Small	D3	T3-T4	N0	M0	Stage I-II	Negative	Negative	NA	Positive	NA	pMMR
+2323107	Tco230353_Q_N_3	NLN_C1	PLN	2023-11205	C16-LN1	Right colon	58	Male		NA	Adenocarcinoma	Polypoid type	<5	17	0	Small	D1	NA	NA	NA	NA	Negative	Negative	Negative	Negative	NA	pMMR
+2323107	Tco230353_Q_N_1	NLN_C2	NLN	2023-11205	C16-LN2	Right colon	58	Male		NA	Adenocarcinoma	Polypoid type	<5	17	0	Small	D2	NA	NA	NA	NA	Negative	Negative	Negative	Negative	NA	pMMR
+2323107	Tco230353_Q_N_2	NLN_C2	NLN	2023-11205	C16-LN3	Right colon	58	Male		NA	Adenocarcinoma	Polypoid type	<5	17	0	Small	D3	NA	NA	NA	NA	Negative	Negative	Negative	Negative	NA	pMMR
+2322544	Tco230355_Q_N_1	NLN_C4	NLN	2023-11208	C18-LN1	Rectum	61	Male		Poor	Mucinous adenocarcinoma	Ulcerative type	5-10	16	12	Small	D1	T3-T4	N1-N2	M1	Stage III-IV	Positive	Positive	Negative	Positive	Negative	pMMR
+2322544	Tco230355_Q_N_2	NLN_C4	NLN	2023-11208	C18-LN2	Rectum	61	Male		Poor	Mucinous adenocarcinoma	Ulcerative type	5-10	16	12	Small	D2	T3-T4	N1-N2	M1	Stage III-IV	Positive	Positive	Negative	Positive	Negative	pMMR
+2322544	Tco230355_Q_N_3	PLN_C1	NLN	2023-11208	C18-LN3	Rectum	61	Male		Poor	Mucinous adenocarcinoma	Ulcerative type	5-10	16	12	Small	D3	T3-T4	N1-N2	M1	Stage III-IV	Positive	Positive	Negative	Positive	Negative	pMMR
+2322778	Tco230361_Q_N_3	NLN_C3	NLN	2023-11231	C20-LN1	Rectum	68	Male		Moderate	Adenocarcinoma	Polypoid type	<5	11	6	Large	D1	T3-T4	N1-N2	M0	Stage III-IV	Negative	Positive	Negative	Positive	Negative	pMMR
+2322778	Tco230361_Q_N_1	PLN_C1	PLN	2023-11231	C20-LN2	Rectum	68	Male		Moderate	Adenocarcinoma	Polypoid type	<5	11	6	Small	D2	T3-T4	N1-N2	M0	Stage III-IV	Negative	Positive	Negative	Positive	Negative	pMMR
+2322778				2023-11231	C20-LN3	Rectum	68	Male		Moderate	Adenocarcinoma	Polypoid type	<5	11	6	Small	D3	T3-T4	N1-N2	M0	Stage III-IV	Negative	Positive	Negative	Positive	Negative	pMMR
+2323554	Tco230362_Q_N_3	NLN_C3	NLN	2023-11245	C21-LN1	Left colon	50	Female		Moderate	Adenocarcinoma	Ulcerative type	<5	18	2	Large	D1	T3-T4	N1-N2	M0	Stage III-IV	Positive	Negative	NA	Positive	Negative	pMMR
+2323554	Tco230362_Q_N_1	PLN_C1	PLN	2023-11245	C21-LN2	Left colon	50	Female		Moderate	Adenocarcinoma	Ulcerative type	<5	18	2	Large	D2	T3-T4	N1-N2	M0	Stage III-IV	Positive	Negative	NA	Positive	Negative	pMMR
+2323554	Tco230362_Q_N_2	PLN_C1	PLN	2023-11245	C21-LN3	Left colon	50	Female		Moderate	Adenocarcinoma	Ulcerative type	<5	18	2	Small	D3	T3-T4	N1-N2	M0	Stage III-IV	Positive	Negative	NA	Positive	Negative	pMMR
+2006282	Tco230359_Q_N_2	NLN_C2	NLN	2023-11257	C19-LN1	Rectum	63	Male		Moderate	Adenocarcinoma	Ulcerative type	<5	17	3	Large	D1	T3-T4	N1-N2	M0	Stage III-IV	Negative	Negative	Negative	Positive	Negative	pMMR
+2006282	Tco230359_Q_N_3	NLN_C2	NLN	2023-11257	C19-LN2	Rectum	63	Male		Moderate	Adenocarcinoma	Ulcerative type	<5	17	3	Small	D2	T3-T4	N1-N2	M0	Stage III-IV	Negative	Negative	Negative	Positive	Negative	pMMR
+2006282	Tco230359_Q_N_1	PLN_C1	PLN	2023-11257	C19-LN3	Rectum	63	Male		Moderate	Adenocarcinoma	Ulcerative type	<5	17	3	Small	D3	T3-T4	N1-N2	M0	Stage III-IV	Negative	Negative	Negative	Positive	Negative	pMMR
+2329722	GXcoln006_Q_N_1	NLN_C2	NLN	2023-14549	C6-LN1	Rectum	76	Female		Moderate	Adenocarcinoma	Ulcerative type	<5	12	0	Large	D1	T3-T4	N0	M0	Stage I-II	Negative	Negative	NA	Positive	Negative	pMMR
+2329722	GXcoln006_Q_N_2	NLN_C2	NLN	2023-14549	C6-LN2	Rectum	76	Female		Moderate	Adenocarcinoma	Ulcerative type	<5	12	0	Large	D1	T3-T4	N0	M0	Stage I-II	Negative	Negative	NA	Positive	Negative	pMMR
+2329722	GXcoln006_Q_N_3	NLN_C2	NLN	2023-14549	C6-LN3	Rectum	76	Female		Moderate	Adenocarcinoma	Ulcerative type	<5	12	0	Large	D2	T3-T4	N0	M0	Stage I-II	Negative	Negative	NA	Positive	Negative	pMMR
+	GXcoln007_Q_N_1	NLN_C2	NLN	2023-14550																							
+	GXcoln007_Q_N_2	NLN_C2	NLN	2023-14550																							
+	GXcoln007_Q_N_3	NLN_C2	NLN	2023-14550																							
+	GXcoln007_Q_N_4	NLN_C2	NLN	2023-14550																							
+2329657	GXcoln005_Q_N_1	NLN_C4	NLN	2023-14591	C5-LN1	Rectum	65	Male		Poor	Mucinous adenocarcinoma	Ulcerative type	5-10	16	8	Large	D1	T3-T4	N1-N2	M0	Stage III-IV	Positive	Positive	NA	NA	NA	pMMR
+2329657	GXcoln005_Q_N_3	NLN_C4	NLN	2023-14591	C5-LN2	Rectum	65	Male		Poor	Mucinous adenocarcinoma	Ulcerative type	5-10	16	8	Large	D1	T3-T4	N1-N2	M0	Stage III-IV	Positive	Positive	NA	NA	NA	pMMR
+2329657	GXcoln005_Q_N_2	PLN_C1	NLN	2023-14591	C5-LN3	Rectum	65	Male		Poor	Mucinous adenocarcinoma	Ulcerative type	5-10	16	8	Small	D2	T3-T4	N1-N2	M0	Stage III-IV	Positive	Positive	NA	NA	NA	pMMR
+2329905	GXcoln003_Q_N_4	NLN_C2	NLN	2023-14633	C3-LN1	Right colon	49	Female		Moderate	Adenocarcinoma	Ulcerative type	<5	10	0	Large	D2	T3-T4	N0	M0	Stage I-II	Negative	Negative	NA	Positive	Negative	pMMR
+2329905	GXcoln003_Q_N_1	NLN_C3	NLN	2023-14633	C3-LN2	Right colon	49	Female		Moderate	Adenocarcinoma	Ulcerative type	<5	10	0	Large	D2	T3-T4	N0	M0	Stage I-II	Negative	Negative	NA	Positive	Negative	pMMR
+2329905	GXcoln003_Q_N_2	NLN_C3	NLN	2023-14633	C3-LN3	Right colon	49	Female		Moderate	Adenocarcinoma	Ulcerative type	<5	10	0	Large	D2	T3-T4	N0	M0	Stage I-II	Negative	Negative	NA	Positive	Negative	pMMR
+2329905	GXcoln003_Q_N_3	NLN_C3	NLN	2023-14633	C3-LN4	Right colon	49	Female		Moderate	Adenocarcinoma	Ulcerative type	<5	10	0	Large	D1	T3-T4	N0	M0	Stage I-II	Negative	Negative	NA	Positive	Negative	pMMR
+2329905	GXcoln003_Q_N_5	NLN_C3	NLN	2023-14633	C3-LN5	Right colon	49	Female		Moderate	Adenocarcinoma	Ulcerative type	<5	10	0	Large	D1	T3-T4	N0	M0	Stage I-II	Negative	Negative	NA	Positive	Negative	pMMR
+2325493	GXcoln008_Q_N_2	NLN_C2	NLN	2023-14635	C4-LN1	Rectum	52	Male		Moderate	Adenocarcinoma	Ulcerative type	<5	12	0	Large	D2	T1-T2	N0	M0	Stage I-II	Negative	Negative	NA	Positive	NA	pMMR
+2325493	GXcoln008_Q_N_3	NLN_C2	NLN	2023-14635	C4-LN2	Rectum	52	Male		Moderate	Adenocarcinoma	Ulcerative type	<5	12	0	Large	D2	T1-T2	N0	M0	Stage I-II	Negative	Negative	NA	Positive	NA	pMMR
+2325493	GXcoln008_Q_N_5	NLN_C2	NLN	2023-14635	C4-LN3	Rectum	52	Male		Moderate	Adenocarcinoma	Ulcerative type	<5	12	0	Large	D2	T1-T2	N0	M0	Stage I-II	Negative	Negative	NA	Positive	NA	pMMR
+2325493	GXcoln008_Q_N_1	PLN_C1	NLN	2023-14635	C4-LN4	Rectum	52	Male		Moderate	Adenocarcinoma	Ulcerative type	<5	12	0	Small	D2	T1-T2	N0	M0	Stage I-II	Negative	Negative	NA	Positive	NA	pMMR
+2325493				2023-14635	C4-LN5	Rectum	52	Male		Moderate	Adenocarcinoma	Ulcerative type	<5	12	0	Small	D2	T1-T2	N0	M0	Stage I-II	Negative	Negative	NA	Positive	NA	pMMR
+2330068	GXcoln001_Q_N_1	NLN_C2	NLN	2023-14646	C1-LN1	Rectum	26	Male		Moderate	Adenocarcinoma	Ulcerative type	<5	13	0	Small	D3	T1-T2	N0	M0	Stage I-II	Negative	Positive	Negative	NA	Positive	dMMR
+2330068	GXcoln001_Q_N_3	NLN_C2	NLN	2023-14646	C1-LN2	Rectum	26	Male		Moderate	Adenocarcinoma	Ulcerative type	<5	13	0	Small	D3	T1-T2	N0	M0	Stage I-II	Negative	Positive	Negative	NA	Positive	dMMR
+2330068	GXcoln001_Q_N_4	NLN_C2	NLN	2023-14646	C1-LN3	Rectum	26	Male		Moderate	Adenocarcinoma	Ulcerative type	<5	13	0	Small	D3	T1-T2	N0	M0	Stage I-II	Negative	Positive	Negative	NA	Positive	dMMR
+2330068	GXcoln001_Q_N_2	NLN_C3	NLN	2023-14646	C1-LN4	Rectum	26	Male		Moderate	Adenocarcinoma	Ulcerative type	<5	13	0	Small	D2	T1-T2	N0	M0	Stage I-II	Negative	Positive	Negative	NA	Positive	dMMR
+2329860	GXcoln002_Q_N_1	PLN_C1	PLN	2023-14655	C2-LN1	Rectum	67	Male		Well	Adenocarcinoma	Ulcerative type	5-10	12	2	Large	D2	T3-T4	N1-N2	M1	Stage III-IV	Negative	Positive	NA	NA	Negative	pMMR
+2329860	GXcoln002_Q_N_2	PLN_C1	PLN	2023-14655	C2-LN2	Rectum	67	Male		Well	Adenocarcinoma	Ulcerative type	5-10	12	2	Large	D2	T3-T4	N1-N2	M1	Stage III-IV	Negative	Positive	NA	NA	Negative	pMMR
+2329860	GXcoln002_Q_N_3	PLN_C1	PLN	2023-14655	C2-LN3	Rectum	67	Male		Well	Adenocarcinoma	Ulcerative type	5-10	12	2	Large	D2	T3-T4	N1-N2	M1	Stage III-IV	Negative	Positive	NA	NA	Negative	pMMR
+2329860	GXcoln002_Q_N_4	PLN_C1	PLN	2023-14655	C2-LN4	Rectum	67	Male		Well	Adenocarcinoma	Ulcerative type	5-10	12	2	Large	D2	T3-T4	N1-N2	M1	Stage III-IV	Negative	Positive	NA	NA	Negative	pMMR
+2329860	GXcoln002_Q_N_5	PLN_C1	PLN	2023-14655	C2-LN5	Rectum	67	Male		Well	Adenocarcinoma	Ulcerative type	5-10	12	2	Large	D2	T3-T4	N1-N2	M1	Stage III-IV	Negative	Positive	NA	NA	Negative	pMMR
+2329860	GXcoln002_Q_N_6	PLN_C1	PLN	2023-14655	C2-LN6	Rectum	67	Male		Well	Adenocarcinoma	Ulcerative type	5-10	12	2	Large	D2	T3-T4	N1-N2	M1	Stage III-IV	Negative	Positive	NA	NA	Negative	pMMR
+2330168	GXcoln010_Q_N_3	NLN_C2	NLN	2023-14703	C23-LN1	Left colon	64	Male		Moderate	Adenocarcinoma	Ulcerative type	<5	17	0	Large	D1	T3-T4	N0	M0	Stage I-II	Negative	Negative	NA	Positive	Negative	pMMR
+2330168	GXcoln010_Q_N_1	NLN_C4	NLN	2023-14703	C23-LN2	Left colon	64	Male		Moderate	Adenocarcinoma	Ulcerative type	<5	17	0	Large	D3	T3-T4	N0	M0	Stage I-II	Negative	Negative	NA	Positive	Negative	pMMR
+2330168	GXcoln010_Q_N_2	NLN_C4	NLN	2023-14703	C23-LN3	Left colon	64	Male		Moderate	Adenocarcinoma	Ulcerative type	<5	17	0	Small	D3	T3-T4	N0	M0	Stage I-II	Negative	Negative	NA	Positive	Negative	pMMR
+2330580	GXcoln009_Q_N_4	NLN_C2	NLN	2023-14734	C22-LN1	Rectum	66	Male		Moderate	Adenocarcinoma	Ulcerative type	<5	12	0	Large	D3	T3-T4	N0	M0	Stage I-II	Negative	Positive	Negative	Positive	Negative	pMMR
+2330580	GXcoln009_Q_N_1	NLN_C3	NLN	2023-14734	C22-LN2	Rectum	66	Male		Moderate	Adenocarcinoma	Ulcerative type	<5	12	0	Large	D3	T3-T4	N0	M0	Stage I-II	Negative	Positive	Negative	Positive	Negative	pMMR
+2330580	GXcoln009_Q_N_2	NLN_C3	NLN	2023-14734	C22-LN3	Rectum	66	Male		Moderate	Adenocarcinoma	Ulcerative type	<5	12	0	Small	D3	T3-T4	N0	M0	Stage I-II	Negative	Positive	Negative	Positive	Negative	pMMR
+2330580	GXcoln009_Q_N_3	NLN_C3	NLN	2023-14734	C22-LN4	Rectum	66	Male		Moderate	Adenocarcinoma	Ulcerative type	<5	12	0	Large	D2	T3-T4	N0	M0	Stage I-II	Negative	Positive	Negative	Positive	Negative	pMMR
+2330580	GXcoln009_Q_N_5	NLN_C4	NLN	2023-14734	C22-LN5	Rectum	66	Male		Moderate	Adenocarcinoma	Ulcerative type	<5	12	0	Small	D2	T3-T4	N0	M0	Stage I-II	Negative	Positive	Negative	Positive	Negative	pMMR
+2330433	GXcoln011_Q_N_1	NLN_C2	NLN	2023-14747	C24-LN1	Rectum	68	Male		Moderate	Adenocarcinoma	Ulcerative type	<5	19	0	Large	D3	T3-T4	N0	M0	Stage I-II	Negative	Negative	NA	Positive	Negative	pMMR
+2330433	GXcoln011_Q_N_2	NLN_C2	NLN	2023-14747	C24-LN2	Rectum	68	Male		Moderate	Adenocarcinoma	Ulcerative type	<5	19	0	Large	D2	T3-T4	N0	M0	Stage I-II	Negative	Negative	NA	Positive	Negative	pMMR
+2330433	GXcoln011_Q_N_3	NLN_C2	NLN	2023-14747	C24-LN3	Rectum	68	Male		Moderate	Adenocarcinoma	Ulcerative type	<5	19	0	Small	D1	T3-T4	N0	M0	Stage I-II	Negative	Negative	NA	Positive	Negative	pMMR
+2330433	GXcoln011_Q_N_4	NLN_C2	NLN	2023-14747	C24-LN4	Rectum	68	Male		Moderate	Adenocarcinoma	Ulcerative type	<5	19	0	Small	D1	T3-T4	N0	M0	Stage I-II	Negative	Negative	NA	Positive	Negative	pMMR
+2330222	GXcoln012_Q_N_1	NLN_C2	NLN	2023-14748	C25-LN1	Left colon	59	Female		Moderate	Adenocarcinoma	Ulcerative type	<5	15	0	Large	D2	T3-T4	N1-N2	M0	Stage III-IV	Negative	Negative	Negative	Positive	Negative	pMMR
+2330222	GXcoln012_Q_N_3	NLN_C2	NLN	2023-14748	C25-LN2	Left colon	59	Female		Moderate	Adenocarcinoma	Ulcerative type	<5	15	0	Large	D2	T3-T4	N1-N2	M0	Stage III-IV	Negative	Negative	Negative	Positive	Negative	pMMR
+2330222	GXcoln012_Q_N_4	NLN_C2	NLN	2023-14748	C25-LN3	Left colon	59	Female		Moderate	Adenocarcinoma	Ulcerative type	<5	15	0	Small	D3	T3-T4	N1-N2	M0	Stage III-IV	Negative	Negative	Negative	Positive	Negative	pMMR
+2330222	GXcoln012_Q_N_5	NLN_C2	NLN	2023-14748	C25-LN4	Left colon	59	Female		Moderate	Adenocarcinoma	Ulcerative type	<5	15	0	Small	D1	T3-T4	N1-N2	M0	Stage III-IV	Negative	Negative	Negative	Positive	Negative	pMMR
+2330222	GXcoln012_Q_N_2	NLN_C3	PLN	2023-14748	C25-LN5	Left colon	59	Female		Moderate	Adenocarcinoma	Ulcerative type	<5	15	0	Small	D1	T3-T4	N1-N2	M0	Stage III-IV	Negative	Negative	Negative	Positive	Negative	pMMR
+2331117	GXcoln013_Q_N_1	NLN_C2	NLN	2023-14840	C26-LN1	Right colon	56	Female		Moderate	Adenocarcinoma	Ulcerative type	5-10	22	2	Small	D3	T3-T4	N1-N2	M1	Stage III-IV	Negative	Negative	Negative	Positive	Negative	pMMR
+2331117	GXcoln013_Q_N_2	NLN_C2	NLN	2023-14840	C26-LN2	Right colon	56	Female		Moderate	Adenocarcinoma	Ulcerative type	5-10	22	2	Small	D3	T3-T4	N1-N2	M1	Stage III-IV	Negative	Negative	Negative	Positive	Negative	pMMR
+2331117	GXcoln013_Q_N_3	NLN_C3	NLN	2023-14840	C26-LN3	Right colon	56	Female		Moderate	Adenocarcinoma	Ulcerative type	5-10	22	2	Small	D2	T3-T4	N1-N2	M1	Stage III-IV	Negative	Negative	Negative	Positive	Negative	pMMR
+2331117	GXcoln013_Q_N_4	NLN_C3	NLN	2023-14840	C26-LN4	Right colon	56	Female		Moderate	Adenocarcinoma	Ulcerative type	5-10	22	2	Small	D2	T3-T4	N1-N2	M1	Stage III-IV	Negative	Negative	Negative	Positive	Negative	pMMR
+2331117	GXcoln013_Q_N_5	PLN_C1	NLN	2023-14840	C26-LN5	Right colon	56	Female		Moderate	Adenocarcinoma	Ulcerative type	5-10	22	2	Large	D1	T3-T4	N1-N2	M1	Stage III-IV	Negative	Negative	Negative	Positive	Negative	pMMR
+2323779	GXcoln015_Q_N_2	NLN_C2	NLN	2023-14844	C28-LN1	Rectum	52	Female		Moderate	Adenocarcinoma	Ulcerative type	<5	17	0	Small	D2	T1-T2	N0	M0	Stage I-II	NA	Negative	Negative	Positive	Negative	pMMR
+2323779	GXcoln015_Q_N_3	NLN_C2	NLN	2023-14844	C28-LN2	Rectum	52	Female		Moderate	Adenocarcinoma	Ulcerative type	<5	17	0	Small	D2	T1-T2	N0	M0	Stage I-II	NA	Negative	Negative	Positive	Negative	pMMR
+2323779	GXcoln015_Q_N_4	NLN_C2	NLN	2023-14844	C28-LN3	Rectum	52	Female		Moderate	Adenocarcinoma	Ulcerative type	<5	17	0	Small	D2	T1-T2	N0	M0	Stage I-II	NA	Negative	Negative	Positive	Negative	pMMR
+2323779	GXcoln015_Q_N_5	NLN_C2	NLN	2023-14844	C28-LN4	Rectum	52	Female		Moderate	Adenocarcinoma	Ulcerative type	<5	17	0	Small	D2	T1-T2	N0	M0	Stage I-II	NA	Negative	Negative	Positive	Negative	pMMR
+2323779	GXcoln015_Q_N_1	NLN_C3	NLN	2023-14844	C28-LN5	Rectum	52	Female		Moderate	Adenocarcinoma	Ulcerative type	<5	17	0	Small	D2	T1-T2	N0	M0	Stage I-II	NA	Negative	Negative	Positive	Negative	pMMR
+2330823	GXcoln014_Q_N_1	NLN_C2	NLN	2023-14853	C27-LN1	Rectum	64	Female		Moderate	Adenocarcinoma	Ulcerative type	<5	17	0	Small	D3	T1-T2	N0	M0	Stage I-II	Negative	Negative	Negative	Positive	NA	pMMR
+2330823	GXcoln014_Q_N_2	NLN_C2	NLN	2023-14853	C27-LN2	Rectum	64	Female		Moderate	Adenocarcinoma	Ulcerative type	<5	17	0	Large	D2	T1-T2	N0	M0	Stage I-II	Negative	Negative	Negative	Positive	NA	pMMR
+2330823	GXcoln014_Q_N_3	NLN_C2	NLN	2023-14853	C27-LN3	Rectum	64	Female		Moderate	Adenocarcinoma	Ulcerative type	<5	17	0	Small	D2	T1-T2	N0	M0	Stage I-II	Negative	Negative	Negative	Positive	NA	pMMR
+2330823	GXcoln014_Q_N_4	NLN_C2	NLN	2023-14853	C27-LN4	Rectum	64	Female		Moderate	Adenocarcinoma	Ulcerative type	<5	17	0	Small	D2	T1-T2	N0	M0	Stage I-II	Negative	Negative	Negative	Positive	NA	pMMR
+2330823	GXcoln014_Q_N_5	NLN_C2	NLN	2023-14853	C27-LN5	Rectum	64	Female		Moderate	Adenocarcinoma	Ulcerative type	<5	17	0	Small	D2	T1-T2	N0	M0	Stage I-II	Negative	Negative	Negative	Positive	NA	pMMR
+2331051	GXcoln016_Q_N_1	NLN_C2	NLN	2023-14878	C29-LN1	Rectum	73	Male		Well	Adenocarcinoma	Ulcerative type	5-10	14	0	Small	D3	T3-T4	N0	M0	Stage I-II	Negative	Negative	Negative	Positive	NA	pMMR
+2331051	GXcoln016_Q_N_2	NLN_C2	NLN	2023-14878	C29-LN2	Rectum	73	Male		Well	Adenocarcinoma	Ulcerative type	5-10	14	0	Small	D3	T3-T4	N0	M0	Stage I-II	Negative	Negative	Negative	Positive	NA	pMMR
+2331051	GXcoln016_Q_N_3	NLN_C2	NLN	2023-14878	C29-LN3	Rectum	73	Male		Well	Adenocarcinoma	Ulcerative type	5-10	14	0	Large	D2	T3-T4	N0	M0	Stage I-II	Negative	Negative	Negative	Positive	NA	pMMR
+2331051	GXcoln016_Q_N_4	NLN_C2	NLN	2023-14878	C29-LN4	Rectum	73	Male		Well	Adenocarcinoma	Ulcerative type	5-10	14	0	Large	D2	T3-T4	N0	M0	Stage I-II	Negative	Negative	Negative	Positive	NA	pMMR
+2331051	GXcoln016_Q_N_5	NLN_C2	NLN	2023-14878	C29-LN5	Rectum	73	Male		Well	Adenocarcinoma	Ulcerative type	5-10	14	0	Small	D1	T3-T4	N0	M0	Stage I-II	Negative	Negative	Negative	Positive	NA	pMMR
+2330537	GXcoln018_Q_N_1	NLN_C2	NLN	2023-14941	C31-LN1	Left colon	67	Male		Poor	Adenocarcinoma	Ulcerative type	<5	15	1	Small	D1	T3-T4	N1-N2	M0	Stage III-IV	Positive	Negative	NA	Positive	NA	pMMR
+2330537	GXcoln018_Q_N_2	NLN_C2	NLN	2023-14941	C31-LN2	Left colon	67	Male		Poor	Adenocarcinoma	Ulcerative type	<5	15	1	Large	D1	T3-T4	N1-N2	M0	Stage III-IV	Positive	Negative	NA	Positive	NA	pMMR
+2330537	GXcoln018_Q_N_3	NLN_C2	NLN	2023-14941	C31-LN3	Left colon	67	Male		Poor	Adenocarcinoma	Ulcerative type	<5	15	1	Large	D3	T3-T4	N1-N2	M0	Stage III-IV	Positive	Negative	NA	Positive	NA	pMMR
+2330537	GXcoln018_Q_N_5	NLN_C2	NLN	2023-14941	C31-LN4	Left colon	67	Male		Poor	Adenocarcinoma	Ulcerative type	<5	15	1	Large	D3	T3-T4	N1-N2	M0	Stage III-IV	Positive	Negative	NA	Positive	NA	pMMR
+2330537	GXcoln018_Q_N_4	NLN_C3	PLN	2023-14941	C31-LN5	Left colon	67	Male		Poor	Adenocarcinoma	Ulcerative type	<5	15	1	Small	D3	T3-T4	N1-N2	M0	Stage III-IV	Positive	Negative	NA	Positive	NA	pMMR
+2330959	GXcoln017_Q_N_1	NLN_C2	NLN	2023-14951	C30-LN1	Rectum	66	Female		Moderate	Adenocarcinoma	Ulcerative type	5-10	15	0	Small	D1	T3-T4	N0	M0	Stage I-II	Negative	Negative	Negative	Positive	Negative	pMMR
+2330959	GXcoln017_Q_N_2	NLN_C2	NLN	2023-14951	C30-LN2	Rectum	66	Female		Moderate	Adenocarcinoma	Ulcerative type	5-10	15	0	Small	D1	T3-T4	N0	M0	Stage I-II	Negative	Negative	Negative	Positive	Negative	pMMR
+2330959	GXcoln017_Q_N_3	NLN_C2	NLN	2023-14951	C30-LN3	Rectum	66	Female		Moderate	Adenocarcinoma	Ulcerative type	5-10	15	0	Small	D1	T3-T4	N0	M0	Stage I-II	Negative	Negative	Negative	Positive	Negative	pMMR
+2330959	GXcoln017_Q_N_4	NLN_C2	NLN	2023-14951	C30-LN4	Rectum	66	Female		Moderate	Adenocarcinoma	Ulcerative type	5-10	15	0	Large	D2	T3-T4	N0	M0	Stage I-II	Negative	Negative	Negative	Positive	Negative	pMMR
+2330959	GXcoln017_Q_N_5	NLN_C2	NLN	2023-14951	C30-LN5	Rectum	66	Female		Moderate	Adenocarcinoma	Ulcerative type	5-10	15	0	Large	D2	T3-T4	N0	M0	Stage I-II	Negative	Negative	Negative	Positive	Negative	pMMR
+2330129	GXcoln022_Q_N_2	NLN_C2	NLN	2023-14985	C34-LN1	Rectum	62	Male		Moderate	Adenocarcinoma	Polypoid type	<5	10	1	Small	D1	T3-T4	N1-N2	M0	Stage III-IV	Negative	Negative	Negative	Positive	NA	pMMR
+2330129	GXcoln022_Q_N_1	NLN_C3	PLN	2023-14985	C34-LN2	Rectum	62	Male		Moderate	Adenocarcinoma	Polypoid type	<5	10	1	Small	D1	T3-T4	N1-N2	M0	Stage III-IV	Negative	Negative	Negative	Positive	NA	pMMR
+2330808	GXcoln021_Q_N_1	NLN_C2	NLN	2023-14999	C33-LN1	Rectum	61	Male		Moderate	Adenocarcinoma	Ulcerative type	<5	12	0	Small	D2	T3-T4	N0	M0	Stage I-II	Negative	Negative	Negative	Positive	Negative	pMMR
+2330808	GXcoln021_Q_N_2	NLN_C2	NLN	2023-14999	C33-LN2	Rectum	61	Male		Moderate	Adenocarcinoma	Ulcerative type	<5	12	0	Small	D2	T3-T4	N0	M0	Stage I-II	Negative	Negative	Negative	Positive	Negative	pMMR
+2330808	GXcoln021_Q_N_3	NLN_C2	NLN	2023-14999	C33-LN3	Rectum	61	Male		Moderate	Adenocarcinoma	Ulcerative type	<5	12	0	Small	D2	T3-T4	N0	M0	Stage I-II	Negative	Negative	Negative	Positive	Negative	pMMR
+2330956	GXcoln020_Q_N_1	NLN_C2	NLN	2023-15000	C32-LN1	Rectum	40	Female		NA	NA	NA	NA	9	0	Small	D1	NA	NA	NA	NA	NA	NA	NA	NA	NA	pMMR
+2330956	GXcoln020_Q_N_2	NLN_C2	NLN	2023-15000	C32-LN2	Rectum	40	Female		NA	NA	NA	NA	9	0	Small	D2	NA	NA	NA	NA	NA	NA	NA	NA	NA	pMMR
+2330956	GXcoln020_Q_N_3	NLN_C2	NLN	2023-15000	C32-LN3	Rectum	40	Female		NA	NA	NA	NA	9	0	Small	D2	NA	NA	NA	NA	NA	NA	NA	NA	NA	pMMR
+2330956	GXcoln020_Q_N_4	NLN_C2	NLN	2023-15000	C32-LN4	Rectum	40	Female		NA	NA	NA	NA	9	0	Small	D2	NA	NA	NA	NA	NA	NA	NA	NA	NA	pMMR
+2331488	GXcoln026_Q_N_1	NLN_C2	NLN	2023-15043	C38-LN1	Right colon	59	Female		Moderate	Adenocarcinoma	Ulcerative type	<5	19	0	Small	D1	T1-T2	N0	M0	Stage I-II	Negative	Negative	NA	Positive	Negative	pMMR
+2331488	GXcoln026_Q_N_2	NLN_C2	NLN	2023-15043	C38-LN2	Right colon	59	Female		Moderate	Adenocarcinoma	Ulcerative type	<5	19	0	Small	D1	T1-T2	N0	M0	Stage I-II	Negative	Negative	NA	Positive	Negative	pMMR
+2331488	GXcoln026_Q_N_3	NLN_C2	NLN	2023-15043	C38-LN3	Right colon	59	Female		Moderate	Adenocarcinoma	Ulcerative type	<5	19	0	Small	D1	T1-T2	N0	M0	Stage I-II	Negative	Negative	NA	Positive	Negative	pMMR
+2331488	GXcoln026_Q_N_4	NLN_C2	NLN	2023-15043	C38-LN4	Right colon	59	Female		Moderate	Adenocarcinoma	Ulcerative type	<5	19	0	Small	D1	T1-T2	N0	M0	Stage I-II	Negative	Negative	NA	Positive	Negative	pMMR
+2331488	GXcoln026_Q_N_5	NLN_C2	NLN	2023-15043	C38-LN5	Right colon	59	Female		Moderate	Adenocarcinoma	Ulcerative type	<5	19	0	Small	D1	T1-T2	N0	M0	Stage I-II	Negative	Negative	NA	Positive	Negative	pMMR
+2331488	GXcoln026_Q_N_6	NLN_C2	NLN	2023-15043	C38-LN6	Right colon	59	Female		Moderate	Adenocarcinoma	Ulcerative type	<5	19	0	Small	D2	T1-T2	N0	M0	Stage I-II	Negative	Negative	NA	Positive	Negative	pMMR
+2331488	GXcoln026_Q_N_7	NLN_C2	NLN	2023-15043	C38-LN7	Right colon	59	Female		Moderate	Adenocarcinoma	Ulcerative type	<5	19	0	Small	D2	T1-T2	N0	M0	Stage I-II	Negative	Negative	NA	Positive	Negative	pMMR
+2322049	GXcoln024_Q_N_1	NLN_C2	NLN	2023-15044	C36-LN1	Right colon	59	Female		Poor	Adenocarcinoma	Ulcerative type	<5	22	7	Small	D2	T3-T4	N1-N2	M1	Stage III-IV	Negative	Negative	Negative	Positive	Negative	pMMR
+2322049	GXcoln024_Q_N_2	NLN_C2	NLN	2023-15044	C36-LN2	Right colon	59	Female		Poor	Adenocarcinoma	Ulcerative type	<5	22	7	Small	D2	T3-T4	N1-N2	M1	Stage III-IV	Negative	Negative	Negative	Positive	Negative	pMMR
+2322049	GXcoln024_Q_N_3	NLN_C2	NLN	2023-15044	C36-LN3	Right colon	59	Female		Poor	Adenocarcinoma	Ulcerative type	<5	22	7	Small	D2	T3-T4	N1-N2	M1	Stage III-IV	Negative	Negative	Negative	Positive	Negative	pMMR
+2322049	GXcoln024_Q_N_4	NLN_C2	NLN	2023-15044	C36-LN4	Right colon	59	Female		Poor	Adenocarcinoma	Ulcerative type	<5	22	7	Small	D2	T3-T4	N1-N2	M1	Stage III-IV	Negative	Negative	Negative	Positive	Negative	pMMR
+2322049	GXcoln024_Q_N_5	PLN_C1	PLN	2023-15044	C36-LN5	Right colon	59	Female		Poor	Adenocarcinoma	Ulcerative type	<5	22	7	Large	D1	T3-T4	N1-N2	M1	Stage III-IV	Negative	Negative	Negative	Positive	Negative	pMMR
+2322049	GXcoln024_Q_N_6	PLN_C1	PLN	2023-15044	C36-LN6	Right colon	59	Female		Poor	Adenocarcinoma	Ulcerative type	<5	22	7	Large	D1	T3-T4	N1-N2	M1	Stage III-IV	Negative	Negative	Negative	Positive	Negative	pMMR
+2322049	GXcoln024_Q_N_7	PLN_C1	PLN	2023-15044	C36-LN7	Right colon	59	Female		Poor	Adenocarcinoma	Ulcerative type	<5	22	7	Large	D1	T3-T4	N1-N2	M1	Stage III-IV	Negative	Negative	Negative	Positive	Negative	pMMR
+2331178	GXcoln027_Q_N_2	NLN_C2	NLN	2023-15057	C39-LN1	Rectum	57	Female		Moderate	Adenocarcinoma	Ulcerative type	<5	12	2	Large	D1	T3-T4	N1-N2	M0	Stage III-IV	Negative	Negative	NA	Positive	NA	pMMR
+2331178	GXcoln027_Q_N_3	NLN_C2	NLN	2023-15057	C39-LN2	Rectum	57	Female		Moderate	Adenocarcinoma	Ulcerative type	<5	12	2	Small	D2	T3-T4	N1-N2	M0	Stage III-IV	Negative	Negative	NA	Positive	NA	pMMR
+2331178	GXcoln027_Q_N_4	NLN_C2	NLN	2023-15057	C39-LN3	Rectum	57	Female		Moderate	Adenocarcinoma	Ulcerative type	<5	12	2	Small	D2	T3-T4	N1-N2	M0	Stage III-IV	Negative	Negative	NA	Positive	NA	pMMR
+2331178	GXcoln027_Q_N_5	NLN_C2	NLN	2023-15057	C39-LN4	Rectum	57	Female		Moderate	Adenocarcinoma	Ulcerative type	<5	12	2	Small	D2	T3-T4	N1-N2	M0	Stage III-IV	Negative	Negative	NA	Positive	NA	pMMR
+2331178	GXcoln027_Q_N_1	PLN_C1	NLN	2023-15057	C39-LN5	Rectum	57	Female		Moderate	Adenocarcinoma	Ulcerative type	<5	12	2	Small	D2	T3-T4	N1-N2	M0	Stage III-IV	Negative	Negative	NA	Positive	NA	pMMR
+2331414	GXcoln023_Q_N_1	NLN_C2	NLN	2023-15058	C35-LN1	Left colon	60	Male		Moderate	Adenocarcinoma	Ulcerative type	<5	12	0	Small	D2	T1-T2	N0	M0	Stage I-II	Negative	Negative	Negative	Positive	NA	pMMR
+2331414	GXcoln023_Q_N_2	NLN_C2	NLN	2023-15058	C35-LN2	Left colon	60	Male		Moderate	Adenocarcinoma	Ulcerative type	<5	12	0	Small	D2	T1-T2	N0	M0	Stage I-II	Negative	Negative	Negative	Positive	NA	pMMR
+2312349	GXcoln025_Q_N_1	NLN_C3	NLN	2023-15072	C37-LN1	Rectum	40	Male		NA	NA	NA	NA	8	1	Small	D2	NA	N1-N2	M0	Stage III-IV	Negative	Negative	Negative	Negative	Negative	pMMR
+2312349	GXcoln025_Q_N_2	PLN_C1	NLN	2023-15072	C37-LN2	Rectum	40	Male		NA	NA	NA	NA	8	1	Large	D2	NA	N1-N2	M0	Stage III-IV	Negative	Negative	Negative	Negative	Negative	pMMR
+2324514	GXcoln028_Q_N_1	NLN_C2	NLN	2023-15117	C40-LN1	Rectum	67	Male		Moderate	Adenocarcinoma	NA	NA	9	0	Small	D1	T3-T4	N0	M0	Stage I-II	Negative	Negative	Negative	Negative	NA	pMMR
+2324514	GXcoln028_Q_N_3	NLN_C2	NLN	2023-15117	C40-LN2	Rectum	67	Male		Moderate	Adenocarcinoma	NA	NA	9	0	Small	D2	T3-T4	N0	M0	Stage I-II	Negative	Negative	Negative	Negative	NA	pMMR
+2324514	GXcoln028_Q_N_2	NLN_C3	NLN	2023-15117	C40-LN3	Rectum	67	Male		Moderate	Adenocarcinoma	NA	NA	9	0	Small	D3	T3-T4	N0	M0	Stage I-II	Negative	Negative	Negative	Negative	NA	pMMR
+2331699	GXcoln029_Q_N_2	PLN_C1	PLN	2023-15259	C41-LN1	Rectum	62	Male		Moderate	Adenocarcinoma	Ulcerative type	<5	9	1	Small	D2	T1-T2	N1-N2	M0	Stage III-IV	Negative	Negative	Negative	Positive	NA	pMMR
+2331699	GXcoln029_Q_N_3	PLN_C1	PLN	2023-15259	C41-LN2	Rectum	62	Male		Moderate	Adenocarcinoma	Ulcerative type	<5	9	1	Large	D1	T1-T2	N1-N2	M0	Stage III-IV	Negative	Negative	Negative	Positive	NA	pMMR
+2331699				2023-15259	C41-LN3	Rectum	62	Male		Moderate	Adenocarcinoma	Ulcerative type	<5	9	1	Large	D1	T1-T2	N1-N2	M0	Stage III-IV	Negative	Negative	Negative	Positive	NA	pMMR
+2332115	GXcoln032_Q_N_1	NLN_C1	NLN	2023-15260	C44-LN1	Left colon	49	Female		Poor	Adenocarcinoma	Ulcerative type	5-10	17	2	Large	D1	T3-T4	N1-N2	M0	Stage III-IV	Negative	Negative	Negative	Positive	Negative	pMMR
+2332115	GXcoln032_Q_N_2	NLN_C1	NLN	2023-15260	C44-LN2	Left colon	49	Female		Poor	Adenocarcinoma	Ulcerative type	5-10	17	2	Small	D1	T3-T4	N1-N2	M0	Stage III-IV	Negative	Negative	Negative	Positive	Negative	pMMR
+2332115	GXcoln032_Q_N_4	NLN_C1	NLN	2023-15260	C44-LN3	Left colon	49	Female		Poor	Adenocarcinoma	Ulcerative type	5-10	17	2	Small	D1	T3-T4	N1-N2	M0	Stage III-IV	Negative	Negative	Negative	Positive	Negative	pMMR
+2332115	GXcoln032_Q_N_5	NLN_C1	NLN	2023-15260	C44-LN4	Left colon	49	Female		Poor	Adenocarcinoma	Ulcerative type	5-10	17	2	Small	D1	T3-T4	N1-N2	M0	Stage III-IV	Negative	Negative	Negative	Positive	Negative	pMMR
+2332115	GXcoln032_Q_N_3	NLN_C4	NLN	2023-15260	C44-LN5	Left colon	49	Female		Poor	Adenocarcinoma	Ulcerative type	5-10	17	2	Small	D1	T3-T4	N1-N2	M0	Stage III-IV	Negative	Negative	Negative	Positive	Negative	pMMR
+2331430	GXcoln031_Q_N_2	NLN_C1	NLN	2023-15271	C43-LN1	Right colon	66	Male		Moderate	Adenocarcinoma	Ulcerative type	5-10	29	0	Small	D1	T3-T4	N0	M0	Stage I-II	Negative	Negative	Negative	Positive	Negative	pMMR
+2331430	GXcoln031_Q_N_3	NLN_C1	NLN	2023-15271	C43-LN2	Right colon	66	Male		Moderate	Adenocarcinoma	Ulcerative type	5-10	29	0	Small	D1	T3-T4	N0	M0	Stage I-II	Negative	Negative	Negative	Positive	Negative	pMMR
+2331430	GXcoln031_Q_N_4	NLN_C1	NLN	2023-15271	C43-LN3	Right colon	66	Male		Moderate	Adenocarcinoma	Ulcerative type	5-10	29	0	Small	D1	T3-T4	N0	M0	Stage I-II	Negative	Negative	Negative	Positive	Negative	pMMR
+2331430	GXcoln031_Q_N_5	NLN_C1	NLN	2023-15271	C43-LN4	Right colon	66	Male		Moderate	Adenocarcinoma	Ulcerative type	5-10	29	0	Large	D1	T3-T4	N0	M0	Stage I-II	Negative	Negative	Negative	Positive	Negative	pMMR
+2331430	GXcoln031_Q_N_8	NLN_C1	NLN	2023-15271	C43-LN5	Right colon	66	Male		Moderate	Adenocarcinoma	Ulcerative type	5-10	29	0	Small	D3	T3-T4	N0	M0	Stage I-II	Negative	Negative	Negative	Positive	Negative	pMMR
+2331430	GXcoln031_Q_N_1	NLN_C2	NLN	2023-15271	C43-LN6	Right colon	66	Male		Moderate	Adenocarcinoma	Ulcerative type	5-10	29	0	Small	D3	T3-T4	N0	M0	Stage I-II	Negative	Negative	Negative	Positive	Negative	pMMR
+2331430	GXcoln031_Q_N_6	NLN_C2	NLN	2023-15271	C43-LN7	Right colon	66	Male		Moderate	Adenocarcinoma	Ulcerative type	5-10	29	0	Small	D3	T3-T4	N0	M0	Stage I-II	Negative	Negative	Negative	Positive	Negative	pMMR
+2331430	GXcoln031_Q_N_7	NLN_C2	NLN	2023-15271	C43-LN8	Right colon	66	Male		Moderate	Adenocarcinoma	Ulcerative type	5-10	29	0	Small	D3	T3-T4	N0	M0	Stage I-II	Negative	Negative	Negative	Positive	Negative	pMMR
+2330603	GXcoln030_Q_N_2	NLN_C1	NLN	2023-15283	C42-LN1	Left colon	69	Female		NA	NA	NA	NA	11	0	Small	D1	NA	NA	NA	NA	NA	NA	NA	NA	NA	pMMR
+2330603	GXcoln030_Q_N_1	NLN_C2	NLN	2023-15283	C42-LN2	Left colon	69	Female		NA	NA	NA	NA	11	0	Small	D1	NA	NA	NA	NA	NA	NA	NA	NA	NA	pMMR
+2330603	GXcoln030_Q_N_3	NLN_C2	NLN	2023-15283	C42-LN3	Left colon	69	Female		NA	NA	NA	NA	11	0	Small	D1	NA	NA	NA	NA	NA	NA	NA	NA	NA	pMMR
+2330603	GXcoln030_Q_N_4	NLN_C2	NLN	2023-15283	C42-LN4	Left colon	69	Female		NA	NA	NA	NA	11	0	Small	D1	NA	NA	NA	NA	NA	NA	NA	NA	NA	pMMR
+2331779	GXcoln035_Q_N_1	NLN_C1	NLN	2023-15333	C45-LN1	Left colon	38	Female		Moderate	Adenocarcinoma	Ulcerative type	<5	12	0	Large	D2	T3-T4	N0	M0	Stage I-II	Negative	Positive	NA	Positive	Negative	pMMR
+2331779	GXcoln035_Q_N_2	NLN_C1	NLN	2023-15333	C45-LN2	Left colon	38	Female		Moderate	Adenocarcinoma	Ulcerative type	<5	12	0	Small	D2	T3-T4	N0	M0	Stage I-II	Negative	Positive	NA	Positive	Negative	pMMR
+2331779	GXcoln035_Q_N_3	NLN_C2	NLN	2023-15333	C45-LN3	Left colon	38	Female		Moderate	Adenocarcinoma	Ulcerative type	<5	12	0	Small	D2	T3-T4	N0	M0	Stage I-II	Negative	Positive	NA	Positive	Negative	pMMR
+2331779	GXcoln035_Q_N_5	NLN_C2	NLN	2023-15333	C45-LN4	Left colon	38	Female		Moderate	Adenocarcinoma	Ulcerative type	<5	12	0	Small	D2	T3-T4	N0	M0	Stage I-II	Negative	Positive	NA	Positive	Negative	pMMR
+2331779	GXcoln035_Q_N_4	NLN_C4	NLN	2023-15333	C45-LN5	Left colon	38	Female		Moderate	Adenocarcinoma	Ulcerative type	<5	12	0	Small	D2	T3-T4	N0	M0	Stage I-II	Negative	Positive	NA	Positive	Negative	pMMR
+2331746	GXcoln037_Q_N_3	NLN_C1	NLN	2023-15334	C49-LN1	Rectum	64	Male		Poor	Adenocarcinoma	Ulcerative type	5-10	16	4	Large	D1	T3-T4	N1-N2	M0	Stage III-IV	Positive	Positive	NA	Positive	Negative	pMMR
+2331746	GXcoln037_Q_N_4	NLN_C1	NLN	2023-15334	C49-LN2	Rectum	64	Male		Poor	Adenocarcinoma	Ulcerative type	5-10	16	4	Small	D2	T3-T4	N1-N2	M0	Stage III-IV	Positive	Positive	NA	Positive	Negative	pMMR
+2331746	GXcoln037_Q_N_2	NLN_C2	NLN	2023-15334	C49-LN3	Rectum	64	Male		Poor	Adenocarcinoma	Ulcerative type	5-10	16	4	Small	D2	T3-T4	N1-N2	M0	Stage III-IV	Positive	Positive	NA	Positive	Negative	pMMR
+2331746	GXcoln037_Q_N_1	PLN_C1	PLN	2023-15334	C49-LN4	Rectum	64	Male		Poor	Adenocarcinoma	Ulcerative type	5-10	16	4	Small	D2	T3-T4	N1-N2	M0	Stage III-IV	Positive	Positive	NA	Positive	Negative	pMMR
+2331746				2023-15334	C49-LN5	Rectum	64	Male		Poor	Adenocarcinoma	Ulcerative type	5-10	16	4	Large	D3	T3-T4	N1-N2	M0	Stage III-IV	Positive	Positive	NA	Positive	Negative	pMMR
+2331002	GXcoln036_Q_N_1	NLN_C1	NLN	2023-15341	C48-LN1	Left colon	62	Male		Moderate	Adenocarcinoma	Ulcerative type	5-10	22	0	Small	D2	T3-T4	N0	M0	Stage I-II	Negative	Negative	NA	Negative	Negative	dMMR
+2331002	GXcoln036_Q_N_2	NLN_C1	NLN	2023-15341	C48-LN2	Left colon	62	Male		Moderate	Adenocarcinoma	Ulcerative type	5-10	22	0	Large	D2	T3-T4	N0	M0	Stage I-II	Negative	Negative	NA	Negative	Negative	dMMR
+2331002	GXcoln036_Q_N_3	NLN_C1	PLN	2023-15341	C48-LN3	Left colon	62	Male		Moderate	Adenocarcinoma	Ulcerative type	5-10	22	0	Small	D2	T3-T4	N0	M0	Stage I-II	Negative	Negative	NA	Negative	Negative	dMMR
+2331002	GXcoln036_Q_N_4	NLN_C1	PLN	2023-15341	C48-LN4	Left colon	62	Male		Moderate	Adenocarcinoma	Ulcerative type	5-10	22	0	Small	D2	T3-T4	N0	M0	Stage I-II	Negative	Negative	NA	Negative	Negative	dMMR
+	GXcoln033_Q_N_2	NLN_C1	PLN	2023-15360																							
+	GXcoln033_Q_N_1	NLN_C2	NLN	2023-15360																							
+	GXcoln033_Q_N_3	NLN_C4	PLN	2023-15360																							
+2331497	GXcoln034_Q_N_1	NLN_C3	NLN	2023-15362	C46-LN1	Rectum	61	Male		Moderate	Adenocarcinoma	Polypoid type	5-10	13	0	Large	D1	T1-T2	N0	M0	Stage I-II	Negative	Negative	NA	Positive	Negative	pMMR
+2331497	GXcoln034_Q_N_2	NLN_C3	NLN	2023-15362	C46-LN2	Rectum	61	Male		Moderate	Adenocarcinoma	Polypoid type	5-10	13	0	Small	D1	T1-T2	N0	M0	Stage I-II	Negative	Negative	NA	Positive	Negative	pMMR
+2332180	GXcoln042_Q_N_1	NLN_C1	NLN	2023-15408	C54-LN1	Right colon	67	Male		Moderate	Adenocarcinoma	Ulcerative type	5-10	13	0	Small	D1	T3-T4	N0	M0	Stage I-II	Negative	Negative	NA	Positive	Negative	dMMR
+2332180	GXcoln042_Q_N_2	NLN_C1	NLN	2023-15408	C54-LN2	Right colon	67	Male		Moderate	Adenocarcinoma	Ulcerative type	5-10	13	0	Large	D1	T3-T4	N0	M0	Stage I-II	Negative	Negative	NA	Positive	Negative	dMMR
+2332180	GXcoln042_Q_N_3	NLN_C1	NLN	2023-15408	C54-LN3	Right colon	67	Male		Moderate	Adenocarcinoma	Ulcerative type	5-10	13	0	Large	D1	T3-T4	N0	M0	Stage I-II	Negative	Negative	NA	Positive	Negative	dMMR
+2326339	GXcoln040_Q_N_1	NLN_C1	PLN	2023-15420	C52-LN1	Rectum	63	Male		Moderate	Adenocarcinoma	Polypoid type	5-10	16	0	Large	D1	T3-T4	N0	M0	Stage I-II	Negative	Negative	Negative	Positive	Negative	pMMR
+2332038	GXcoln043_Q_N_1	PLN_C1	PLN	2023-15421	C55-LN1	Rectum	42	Male		Moderate	Adenocarcinoma	Ulcerative type	<5	11	1	Large	D1	T3-T4	N1-N2	M0	Stage III-IV	Positive	Positive	NA	Positive	Negative	pMMR
+2332517	GXcoln038_Q_N_1	NLN_C1	NLN	2023-15435	C50-LN1	Rectum	56	Female		Moderate	Adenocarcinoma	Ulcerative type	<5	11	1	Small	D1	T3-T4	N1-N2	M0	Stage III-IV	Negative	Negative	Negative	Positive	Negative	pMMR
+2332517	GXcoln038_Q_N_2	NLN_C1	PLN	2023-15435	C50-LN2	Rectum	56	Female		Moderate	Adenocarcinoma	Ulcerative type	<5	11	1	Small	D2	T3-T4	N1-N2	M0	Stage III-IV	Negative	Negative	Negative	Positive	Negative	pMMR
+2332517	GXcoln038_Q_N_3	NLN_C1	NLN	2023-15435	C50-LN3	Rectum	56	Female		Moderate	Adenocarcinoma	Ulcerative type	<5	11	1	Small	D2	T3-T4	N1-N2	M0	Stage III-IV	Negative	Negative	Negative	Positive	Negative	pMMR
+2332517	GXcoln038_Q_N_4	NLN_C1	NLN	2023-15435	C50-LN4	Rectum	56	Female		Moderate	Adenocarcinoma	Ulcerative type	<5	11	1	Small	D3	T3-T4	N1-N2	M0	Stage III-IV	Negative	Negative	Negative	Positive	Negative	pMMR
+2331903	GXcoln041_Q_N_4	NLN_C1	PLN	2023-15448	C53-LN1	Rectum	39	Male		Moderate	Adenocarcinoma	Polypoid type	5-10	13	3	Large	D1	T3-T4	N1-N2	M1	Stage III-IV	Negative	Negative	Negative	Positive	Negative	pMMR
+2331903	GXcoln041_Q_N_5	NLN_C1	NLN	2023-15448	C53-LN2	Rectum	39	Male		Moderate	Adenocarcinoma	Polypoid type	5-10	13	3	Large	D1	T3-T4	N1-N2	M1	Stage III-IV	Negative	Negative	Negative	Positive	Negative	pMMR
+2331903	GXcoln041_Q_N_6	NLN_C1	NLN	2023-15448	C53-LN3	Rectum	39	Male		Moderate	Adenocarcinoma	Polypoid type	5-10	13	3	Large	D1	T3-T4	N1-N2	M1	Stage III-IV	Negative	Negative	Negative	Positive	Negative	pMMR
+2331903	GXcoln041_Q_N_7	NLN_C1	NLN	2023-15448	C53-LN4	Rectum	39	Male		Moderate	Adenocarcinoma	Polypoid type	5-10	13	3	Large	D2	T3-T4	N1-N2	M1	Stage III-IV	Negative	Negative	Negative	Positive	Negative	pMMR
+2331903	GXcoln041_Q_N_2	PLN_C1	PLN	2023-15448	C53-LN5	Rectum	39	Male		Moderate	Adenocarcinoma	Polypoid type	5-10	13	3	Small	D2	T3-T4	N1-N2	M1	Stage III-IV	Negative	Negative	Negative	Positive	Negative	pMMR
+2331903	GXcoln041_Q_N_3	PLN_C1	PLN	2023-15448	C53-LN6	Rectum	39	Male		Moderate	Adenocarcinoma	Polypoid type	5-10	13	3	Small	D2	T3-T4	N1-N2	M1	Stage III-IV	Negative	Negative	Negative	Positive	Negative	pMMR
+2331903				2023-15448	C53-LN7	Rectum	39	Male		Moderate	Adenocarcinoma	Polypoid type	5-10	13	3	Small	D2	T3-T4	N1-N2	M1	Stage III-IV	Negative	Negative	Negative	Positive	Negative	pMMR
+1110401	GXcoln039_Q_N_3	NLN_C1	NLN	2023-15450	C51-LN1	Right colon	60	Female		Moderate	Adenocarcinoma	Ulcerative type	5-10	12	1	Large	D1	T3-T4	N1-N2	M0	Stage III-IV	Negative	Negative	Negative	Negative	Negative	pMMR
+1110401	GXcoln039_Q_N_2	NLN_C2	NLN	2023-15450	C51-LN2	Right colon	60	Female		Moderate	Adenocarcinoma	Ulcerative type	5-10	12	1	Large	D1	T3-T4	N1-N2	M0	Stage III-IV	Negative	Negative	Negative	Negative	Negative	pMMR
+1110401	GXcoln039_Q_N_1	PLN_C1	PLN	2023-15450	C51-LN3	Right colon	60	Female		Moderate	Adenocarcinoma	Ulcerative type	5-10	12	1	Small	D2	T3-T4	N1-N2	M0	Stage III-IV	Negative	Negative	Negative	Negative	Negative	pMMR
+	GXcoln044_Q_N_1	NLN_C2	NLN	2023-15468																							
+	GXcoln044_Q_N_2	NLN_C2	NLN	2023-15468																							
+	GXcoln044_Q_N_3	NLN_C2	NLN	2023-15468																							
+	GXcoln044_Q_N_4	NLN_C2	NLN	2023-15468																							
+	GXcoln044_Q_N_6	NLN_C2	NLN	2023-15468																							
+	GXcoln044_Q_N_8	NLN_C2	NLN	2023-15468																							
+	GXcoln044_Q_N_5	NLN_C3	NLN	2023-15468																							
+	GXcoln044_Q_N_7	NLN_C3	NLN	2023-15468																							
+	GXcoln047_Q_N_1	NLN_C2	NLN	2023-15551																							
+	GXcoln047_Q_N_2	NLN_C2	NLN	2023-15551																							
+	GXcoln047_Q_N_3	NLN_C2	NLN	2023-15551																							
+	GXcoln047_Q_N_4	NLN_C2	NLN	2023-15551																							
+	GXcoln047_Q_N_5	NLN_C2	NLN	2023-15551																							
+	GXcoln047_Q_N_7	NLN_C3	NLN	2023-15551																							
+	GXcoln047_Q_N_6	NLN_C4	NLN	2023-15551																							
+2332305	GXcoln045_Q_N_1	NLN_C2	NLN	2023-15559	C57-LN1	Right colon	59	Male		Poor	Adenocarcinoma	Ulcerative type	<5	17	0	Small	D2	T3-T4	N0	M0	Stage I-II	Negative	Negative	Negative	Positive	Negative	pMMR
+2332305	GXcoln045_Q_N_3	NLN_C2	NLN	2023-15559	C57-LN2	Right colon	59	Male		Poor	Adenocarcinoma	Ulcerative type	<5	17	0	Large	D2	T3-T4	N0	M0	Stage I-II	Negative	Negative	Negative	Positive	Negative	pMMR
+2332305	GXcoln045_Q_N_4	NLN_C2	NLN	2023-15559	C57-LN3	Right colon	59	Male		Poor	Adenocarcinoma	Ulcerative type	<5	17	0	Large	D2	T3-T4	N0	M0	Stage I-II	Negative	Negative	Negative	Positive	Negative	pMMR
+2332305	GXcoln045_Q_N_2	NLN_C4	NLN	2023-15559	C57-LN4	Right colon	59	Male		Poor	Adenocarcinoma	Ulcerative type	<5	17	0	Large	D2	T3-T4	N0	M0	Stage I-II	Negative	Negative	Negative	Positive	Negative	pMMR
+2332044	GXcoln046_Q_N_1	NLN_C2	NLN	2023-15560	C58-LN1	Rectum	59	Male		Moderate	Adenocarcinoma	Polypoid type	<5	14	0	Small	D2	T3-T4	N0	M1	Stage III-IV	Negative	Negative	Negative	Positive	Negative	pMMR
+2332044	GXcoln046_Q_N_2	NLN_C2	NLN	2023-15560	C58-LN2	Rectum	59	Male		Moderate	Adenocarcinoma	Polypoid type	<5	14	0	Small	D2	T3-T4	N0	M1	Stage III-IV	Negative	Negative	Negative	Positive	Negative	pMMR
+2332044	GXcoln046_Q_N_3	NLN_C2	NLN	2023-15560	C58-LN3	Rectum	59	Male		Moderate	Adenocarcinoma	Polypoid type	<5	14	0	Small	D2	T3-T4	N0	M1	Stage III-IV	Negative	Negative	Negative	Positive	Negative	pMMR
